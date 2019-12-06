@@ -1,0 +1,597 @@
+[2019-12-05 21:40:17,372] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2019-12-05 21:40:18,313] INFO Registered signal handlers for TERM, INT, HUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2019-12-05 21:40:18,314] INFO starting (kafka.server.KafkaServer)
+[2019-12-05 21:40:18,315] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2019-12-05 21:40:18,376] INFO [ZooKeeperClient Kafka server] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2019-12-05 21:40:18,383] INFO Client environment:zookeeper.version=3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf, built on 03/06/2019 16:18 GMT (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 21:40:18,383] INFO Client environment:host.name=vinicius (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 21:40:18,383] INFO Client environment:java.version=11.0.4 (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 21:40:18,383] INFO Client environment:java.vendor=Ubuntu (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 21:40:18,383] INFO Client environment:java.home=/usr/lib/jvm/java-11-openjdk-amd64 (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 21:40:18,383] INFO Client environment:java.class.path=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/activation-1.1.1.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/aopalliance-repackaged-2.5.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/argparse4j-0.7.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/audience-annotations-0.5.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/commons-lang3-3.8.1.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/connect-api-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/connect-basic-auth-extension-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/connect-file-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/connect-json-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/connect-runtime-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/connect-transforms-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/guava-20.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/hk2-api-2.5.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/hk2-locator-2.5.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/hk2-utils-2.5.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jackson-annotations-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jackson-core-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jackson-databind-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jackson-dataformat-csv-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jackson-datatype-jdk8-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jackson-jaxrs-base-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jackson-jaxrs-json-provider-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jackson-module-jaxb-annotations-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jackson-module-paranamer-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jackson-module-scala_2.12-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jakarta.annotation-api-1.3.4.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jakarta.inject-2.5.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/javassist-3.22.0-CR2.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/javax.servlet-api-3.1.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/javax.ws.rs-api-2.1.1.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jaxb-api-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jersey-client-2.28.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jersey-common-2.28.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jersey-container-servlet-2.28.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jersey-container-servlet-core-2.28.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jersey-hk2-2.28.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jersey-media-jaxb-2.28.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jersey-server-2.28.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jetty-client-9.4.18.v20190429.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jetty-continuation-9.4.18.v20190429.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jetty-http-9.4.18.v20190429.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jetty-io-9.4.18.v20190429.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jetty-security-9.4.18.v20190429.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jetty-server-9.4.18.v20190429.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jetty-servlet-9.4.18.v20190429.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jetty-servlets-9.4.18.v20190429.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jetty-util-9.4.18.v20190429.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jopt-simple-5.0.4.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/jsr305-3.0.2.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/kafka_2.12-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/kafka_2.12-2.3.0-sources.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/kafka-clients-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/kafka-log4j-appender-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/kafka-streams-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/kafka-streams-examples-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/kafka-streams-scala_2.12-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/kafka-streams-test-utils-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/kafka-tools-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/log4j-1.2.17.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/lz4-java-1.6.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/maven-artifact-3.6.1.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/metrics-core-2.2.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/paranamer-2.8.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/plexus-utils-3.2.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/reflections-0.9.11.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/rocksdbjni-5.18.3.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/scala-library-2.12.8.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/scala-logging_2.12-3.9.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/scala-reflect-2.12.8.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/slf4j-api-1.7.26.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/slf4j-log4j12-1.7.26.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/snappy-java-1.1.7.3.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/spotbugs-annotations-3.1.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/validation-api-2.0.1.Final.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/zkclient-0.11.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/zookeeper-3.4.14.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_2/bin/../libs/zstd-jni-1.4.0-1.jar (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 21:40:18,383] INFO Client environment:java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 21:40:18,384] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 21:40:18,384] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 21:40:18,384] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 21:40:18,384] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 21:40:18,384] INFO Client environment:os.version=4.15.0-72-generic (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 21:40:18,384] INFO Client environment:user.name=vinicius (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 21:40:18,384] INFO Client environment:user.home=/home/vinicius (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 21:40:18,384] INFO Client environment:user.dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2 (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 21:40:18,385] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@5c86a017 (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 21:40:18,408] INFO [ZooKeeperClient Kafka server] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-12-05 21:40:18,415] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 21:40:18,421] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 21:40:18,464] INFO Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x16ed7ba25c80005, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 21:40:18,474] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-12-05 21:40:19,417] INFO Cluster ID = 3wDhuaKORbSrzz79c74GTg (kafka.server.KafkaServer)
+[2019-12-05 21:40:19,553] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 2
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.3-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = PLAINTEXT://:9092
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.3-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = [DEFAULT]
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-12-05 21:40:19,570] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 2
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.3-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = PLAINTEXT://:9092
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.3-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = [DEFAULT]
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-12-05 21:40:19,620] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-12-05 21:40:19,621] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-12-05 21:40:19,622] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-12-05 21:40:19,672] INFO Loading logs. (kafka.log.LogManager)
+[2019-12-05 21:40:19,895] INFO [Log partition=demo-44, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:19,906] INFO [Log partition=demo-44, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 130 ms (kafka.log.Log)
+[2019-12-05 21:40:19,970] INFO [Log partition=demo-21, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:19,970] INFO [Log partition=demo-21, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 51 ms (kafka.log.Log)
+[2019-12-05 21:40:19,990] INFO [Log partition=demo-34, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:19,991] INFO [Log partition=demo-34, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 14 ms (kafka.log.Log)
+[2019-12-05 21:40:20,015] INFO [Log partition=demo-30, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,016] INFO [Log partition=demo-30, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 18 ms (kafka.log.Log)
+[2019-12-05 21:40:20,101] INFO [Log partition=demo-20, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,102] INFO [Log partition=demo-20, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 79 ms (kafka.log.Log)
+[2019-12-05 21:40:20,109] INFO [Log partition=demo-12, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,109] INFO [Log partition=demo-12, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 21:40:20,128] INFO [Log partition=demo-22, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,129] INFO [Log partition=demo-22, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 15 ms (kafka.log.Log)
+[2019-12-05 21:40:20,139] INFO [Log partition=demo-0, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,139] INFO [Log partition=demo-0, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 21:40:20,145] INFO [Log partition=demo-45, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,146] INFO [Log partition=demo-45, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 21:40:20,202] INFO [Log partition=demo-19, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,203] INFO [Log partition=demo-19, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 54 ms (kafka.log.Log)
+[2019-12-05 21:40:20,270] INFO [Log partition=demo-41, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,270] INFO [Log partition=demo-41, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 63 ms (kafka.log.Log)
+[2019-12-05 21:40:20,304] INFO [Log partition=demo-16, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,305] INFO [Log partition=demo-16, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 32 ms (kafka.log.Log)
+[2019-12-05 21:40:20,323] INFO [Log partition=demo-24, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,324] INFO [Log partition=demo-24, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 15 ms (kafka.log.Log)
+[2019-12-05 21:40:20,330] INFO [Log partition=demo-28, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,330] INFO [Log partition=demo-28, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 4 ms (kafka.log.Log)
+[2019-12-05 21:40:20,341] INFO [Log partition=demo-46, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,341] INFO [Log partition=demo-46, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 4 ms (kafka.log.Log)
+[2019-12-05 21:40:20,404] INFO [Log partition=demo-1, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,404] INFO [Log partition=demo-1, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 60 ms (kafka.log.Log)
+[2019-12-05 21:40:20,424] INFO [Log partition=demo-15, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,424] INFO [Log partition=demo-15, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 17 ms (kafka.log.Log)
+[2019-12-05 21:40:20,493] INFO [Log partition=demo-8, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,494] INFO [Log partition=demo-8, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 66 ms (kafka.log.Log)
+[2019-12-05 21:40:20,559] INFO [Log partition=demo-43, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,559] INFO [Log partition=demo-43, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 63 ms (kafka.log.Log)
+[2019-12-05 21:40:20,616] INFO [Log partition=demo-7, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,617] INFO [Log partition=demo-7, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 55 ms (kafka.log.Log)
+[2019-12-05 21:40:20,672] INFO [Log partition=demo-13, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,672] INFO [Log partition=demo-13, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 53 ms (kafka.log.Log)
+[2019-12-05 21:40:20,728] INFO [Log partition=demo-26, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,728] INFO [Log partition=demo-26, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 52 ms (kafka.log.Log)
+[2019-12-05 21:40:20,795] INFO [Log partition=demo-35, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,796] INFO [Log partition=demo-35, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 65 ms (kafka.log.Log)
+[2019-12-05 21:40:20,803] INFO [Log partition=demo-39, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,804] INFO [Log partition=demo-39, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 4 ms (kafka.log.Log)
+[2019-12-05 21:40:20,820] INFO [Log partition=demo-18, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,821] INFO [Log partition=demo-18, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 13 ms (kafka.log.Log)
+[2019-12-05 21:40:20,874] INFO [Log partition=demo-25, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,874] INFO [Log partition=demo-25, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 49 ms (kafka.log.Log)
+[2019-12-05 21:40:20,879] INFO [Log partition=demo-33, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,879] INFO [Log partition=demo-33, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-12-05 21:40:20,885] INFO [Log partition=demo-48, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,885] INFO [Log partition=demo-48, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 21:40:20,892] INFO [Log partition=demo-42, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,893] INFO [Log partition=demo-42, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 5 ms (kafka.log.Log)
+[2019-12-05 21:40:20,910] INFO [Log partition=demo-9, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,910] INFO [Log partition=demo-9, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 14 ms (kafka.log.Log)
+[2019-12-05 21:40:20,928] INFO [Log partition=demo-40, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,928] INFO [Log partition=demo-40, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 16 ms (kafka.log.Log)
+[2019-12-05 21:40:20,933] INFO [Log partition=demo-6, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,933] INFO [Log partition=demo-6, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 21:40:20,997] INFO [Log partition=demo-38, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:20,997] INFO [Log partition=demo-38, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 61 ms (kafka.log.Log)
+[2019-12-05 21:40:21,064] INFO [Log partition=demo-23, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:21,065] INFO [Log partition=demo-23, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 65 ms (kafka.log.Log)
+[2019-12-05 21:40:21,083] INFO [Log partition=demo-27, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:21,083] INFO [Log partition=demo-27, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 17 ms (kafka.log.Log)
+[2019-12-05 21:40:21,132] INFO [Log partition=demo-2, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:21,133] INFO [Log partition=demo-2, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 47 ms (kafka.log.Log)
+[2019-12-05 21:40:21,155] INFO [Log partition=demo-47, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:21,155] INFO [Log partition=demo-47, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 20 ms (kafka.log.Log)
+[2019-12-05 21:40:21,200] INFO [Log partition=demo-37, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:21,201] INFO [Log partition=demo-37, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 43 ms (kafka.log.Log)
+[2019-12-05 21:40:21,235] INFO [Log partition=demo-29, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:21,236] INFO [Log partition=demo-29, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 33 ms (kafka.log.Log)
+[2019-12-05 21:40:21,391] INFO [Log partition=demo-49, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:21,393] INFO [Log partition=demo-49, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 155 ms (kafka.log.Log)
+[2019-12-05 21:40:21,418] INFO [Log partition=demo-36, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:21,418] INFO [Log partition=demo-36, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 8 ms (kafka.log.Log)
+[2019-12-05 21:40:21,467] INFO [Log partition=demo-4, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:21,468] INFO [Log partition=demo-4, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 27 ms (kafka.log.Log)
+[2019-12-05 21:40:21,536] INFO [Log partition=demo-32, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:21,536] INFO [Log partition=demo-32, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 65 ms (kafka.log.Log)
+[2019-12-05 21:40:21,543] INFO [Log partition=demo-10, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:21,544] INFO [Log partition=demo-10, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 4 ms (kafka.log.Log)
+[2019-12-05 21:40:21,603] INFO [Log partition=demo-5, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:21,604] INFO [Log partition=demo-5, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 58 ms (kafka.log.Log)
+[2019-12-05 21:40:21,642] INFO [Log partition=demo-3, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:21,643] INFO [Log partition=demo-3, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 38 ms (kafka.log.Log)
+[2019-12-05 21:40:21,716] INFO [Log partition=demo-17, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:21,716] INFO [Log partition=demo-17, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 72 ms (kafka.log.Log)
+[2019-12-05 21:40:21,772] INFO [Log partition=demo-31, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:21,773] INFO [Log partition=demo-31, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 55 ms (kafka.log.Log)
+[2019-12-05 21:40:21,828] INFO [Log partition=demo-11, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:21,829] INFO [Log partition=demo-11, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 51 ms (kafka.log.Log)
+[2019-12-05 21:40:21,884] INFO [Log partition=demo-14, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 21:40:21,884] INFO [Log partition=demo-14, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_2/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 54 ms (kafka.log.Log)
+[2019-12-05 21:40:21,888] INFO Logs loading complete in 2216 ms. (kafka.log.LogManager)
+[2019-12-05 21:40:21,920] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2019-12-05 21:40:21,921] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2019-12-05 21:40:22,407] INFO Awaiting socket connections on 0.0.0.0:9092. (kafka.network.Acceptor)
+[2019-12-05 21:40:22,473] INFO [SocketServer brokerId=2] Created data-plane acceptor and processors for endpoint : EndPoint(null,9092,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.network.SocketServer)
+[2019-12-05 21:40:22,476] INFO [SocketServer brokerId=2] Started 1 acceptor threads for data-plane (kafka.network.SocketServer)
+[2019-12-05 21:40:22,513] INFO [ExpirationReaper-2-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 21:40:22,518] INFO [ExpirationReaper-2-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 21:40:22,544] INFO [ExpirationReaper-2-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 21:40:22,545] INFO [ExpirationReaper-2-ElectPreferredLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 21:40:22,584] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-12-05 21:40:22,679] INFO Creating /brokers/ids/2 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2019-12-05 21:40:22,720] INFO Stat of the created znode at /brokers/ids/2 is: 653,653,1575589222699,1575589222699,1,0,0,103257035973853189,186,0,653
+ (kafka.zk.KafkaZkClient)
+[2019-12-05 21:40:22,721] INFO Registered broker 2 at path /brokers/ids/2 with addresses: ArrayBuffer(EndPoint(vinicius,9092,ListenerName(PLAINTEXT),PLAINTEXT)), czxid (broker epoch): 653 (kafka.zk.KafkaZkClient)
+[2019-12-05 21:40:22,848] INFO [ExpirationReaper-2-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 21:40:22,862] INFO [ExpirationReaper-2-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 21:40:22,872] INFO [ExpirationReaper-2-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 21:40:22,914] INFO [GroupCoordinator 2]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2019-12-05 21:40:22,915] INFO [GroupCoordinator 2]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2019-12-05 21:40:22,922] INFO [GroupMetadataManager brokerId=2] Removed 0 expired offsets in 7 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-12-05 21:40:22,950] INFO [ProducerId Manager 2]: Acquired new producerId block (brokerId:2,blockStartProducerId:8000,blockEndProducerId:8999) by writing to Zk with path version 9 (kafka.coordinator.transaction.ProducerIdManager)
+[2019-12-05 21:40:22,991] INFO [TransactionCoordinator id=2] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2019-12-05 21:40:22,992] INFO [TransactionCoordinator id=2] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2019-12-05 21:40:22,995] INFO [Transaction Marker Channel Manager 2]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2019-12-05 21:40:23,052] INFO [/config/changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-12-05 21:40:23,088] INFO [SocketServer brokerId=2] Started data-plane processors for 1 acceptors (kafka.network.SocketServer)
+[2019-12-05 21:40:23,098] INFO Kafka version: 2.3.0 (org.apache.kafka.common.utils.AppInfoParser)
+[2019-12-05 21:40:23,098] INFO Kafka commitId: fc1aaa116b661c8a (org.apache.kafka.common.utils.AppInfoParser)
+[2019-12-05 21:40:23,098] INFO Kafka startTimeMs: 1575589223090 (org.apache.kafka.common.utils.AppInfoParser)
+[2019-12-05 21:40:23,100] INFO [KafkaServer id=2] started (kafka.server.KafkaServer)
+[2019-12-05 21:40:23,348] INFO Replica loaded for partition demo-8 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,355] INFO Replica loaded for partition demo-27 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,361] INFO Replica loaded for partition demo-46 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,371] INFO Replica loaded for partition demo-5 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,385] INFO Replica loaded for partition demo-24 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,394] INFO Replica loaded for partition demo-43 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,400] INFO Replica loaded for partition demo-2 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,404] INFO Replica loaded for partition demo-21 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,410] INFO Replica loaded for partition demo-40 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,417] INFO Replica loaded for partition demo-37 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,421] INFO Replica loaded for partition demo-18 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,424] INFO Replica loaded for partition demo-34 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,427] INFO Replica loaded for partition demo-15 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,431] INFO Replica loaded for partition demo-31 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,435] INFO Replica loaded for partition demo-12 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,438] INFO Replica loaded for partition demo-28 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,444] INFO Replica loaded for partition demo-9 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,449] INFO Replica loaded for partition demo-47 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,452] INFO Replica loaded for partition demo-6 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,456] INFO Replica loaded for partition demo-44 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,459] INFO Replica loaded for partition demo-25 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,463] INFO Replica loaded for partition demo-3 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,465] INFO Replica loaded for partition demo-22 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,471] INFO Replica loaded for partition demo-41 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,475] INFO Replica loaded for partition demo-0 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,481] INFO Replica loaded for partition demo-38 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,484] INFO Replica loaded for partition demo-10 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,487] INFO Replica loaded for partition demo-29 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,490] INFO Replica loaded for partition demo-19 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,493] INFO Replica loaded for partition demo-48 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,497] INFO Replica loaded for partition demo-45 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,500] INFO Replica loaded for partition demo-7 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,503] INFO Replica loaded for partition demo-16 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,506] INFO Replica loaded for partition demo-35 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,511] INFO Replica loaded for partition demo-26 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,514] INFO Replica loaded for partition demo-23 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,517] INFO Replica loaded for partition demo-32 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,520] INFO Replica loaded for partition demo-4 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,523] INFO Replica loaded for partition demo-42 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,525] INFO Replica loaded for partition demo-13 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,528] INFO Replica loaded for partition demo-20 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,533] INFO Replica loaded for partition demo-1 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,543] INFO Replica loaded for partition demo-39 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,547] INFO Replica loaded for partition demo-36 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,550] INFO Replica loaded for partition demo-17 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,552] INFO Replica loaded for partition demo-33 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,554] INFO Replica loaded for partition demo-14 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,556] INFO Replica loaded for partition demo-30 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,560] INFO Replica loaded for partition demo-49 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:40:23,562] INFO Replica loaded for partition demo-11 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 21:50:22,915] INFO [GroupMetadataManager brokerId=2] Removed 0 expired offsets in 0 milliseconds. (kafka.coordinator.group.GroupMetadataManager)

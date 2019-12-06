@@ -1,0 +1,113 @@
+[2019-12-05T20:40:15.579-0300][gc,heap] Heap region size: 1M
+[2019-12-05T20:40:15.589-0300][gc     ] Using G1
+[2019-12-05T20:40:15.589-0300][gc,heap,coops] Heap address: 0x00000000c0000000, size: 1024 MB, Compressed Oops mode: 32-bit
+[2019-12-05T20:40:15.590-0300][gc,cds       ] Mark closed archive regions in map: [0x00000000fff00000, 0x00000000fff69ff8]
+[2019-12-05T20:40:15.590-0300][gc,cds       ] Mark open archive regions in map: [0x00000000ffe00000, 0x00000000ffe33ff8]
+[2019-12-05T20:40:19.318-0300][gc,start     ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[2019-12-05T20:40:19.318-0300][gc,task      ] GC(0) Using 4 workers of 4 for evacuation
+[2019-12-05T20:40:19.332-0300][gc,phases    ] GC(0)   Pre Evacuate Collection Set: 0,0ms
+[2019-12-05T20:40:19.332-0300][gc,phases    ] GC(0)   Evacuate Collection Set: 13,5ms
+[2019-12-05T20:40:19.332-0300][gc,phases    ] GC(0)   Post Evacuate Collection Set: 0,6ms
+[2019-12-05T20:40:19.332-0300][gc,phases    ] GC(0)   Other: 0,5ms
+[2019-12-05T20:40:19.332-0300][gc,heap      ] GC(0) Eden regions: 51->0(45)
+[2019-12-05T20:40:19.332-0300][gc,heap      ] GC(0) Survivor regions: 0->6(7)
+[2019-12-05T20:40:19.332-0300][gc,heap      ] GC(0) Old regions: 2->2
+[2019-12-05T20:40:19.332-0300][gc,heap      ] GC(0) Humongous regions: 0->0
+[2019-12-05T20:40:19.332-0300][gc,metaspace ] GC(0) Metaspace: 16903K->16903K(1064960K)
+[2019-12-05T20:40:19.332-0300][gc           ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 51M->6M(1024M) 14,751ms
+[2019-12-05T20:40:19.333-0300][gc,cpu       ] GC(0) User=0,05s Sys=0,00s Real=0,02s
+[2019-12-05T20:40:19.828-0300][gc,start     ] GC(1) Pause Young (Concurrent Start) (Metadata GC Threshold)
+[2019-12-05T20:40:19.828-0300][gc,task      ] GC(1) Using 4 workers of 4 for evacuation
+[2019-12-05T20:40:19.841-0300][gc,phases    ] GC(1)   Pre Evacuate Collection Set: 0,1ms
+[2019-12-05T20:40:19.842-0300][gc,phases    ] GC(1)   Evacuate Collection Set: 12,8ms
+[2019-12-05T20:40:19.842-0300][gc,phases    ] GC(1)   Post Evacuate Collection Set: 0,5ms
+[2019-12-05T20:40:19.842-0300][gc,phases    ] GC(1)   Other: 0,2ms
+[2019-12-05T20:40:19.842-0300][gc,heap      ] GC(1) Eden regions: 14->0(50)
+[2019-12-05T20:40:19.842-0300][gc,heap      ] GC(1) Survivor regions: 6->1(7)
+[2019-12-05T20:40:19.842-0300][gc,heap      ] GC(1) Old regions: 2->8
+[2019-12-05T20:40:19.842-0300][gc,heap      ] GC(1) Humongous regions: 0->0
+[2019-12-05T20:40:19.842-0300][gc,metaspace ] GC(1) Metaspace: 20454K->20454K(1067008K)
+[2019-12-05T20:40:19.842-0300][gc           ] GC(1) Pause Young (Concurrent Start) (Metadata GC Threshold) 20M->7M(1024M) 13,690ms
+[2019-12-05T20:40:19.842-0300][gc,cpu       ] GC(1) User=0,05s Sys=0,00s Real=0,02s
+[2019-12-05T20:40:19.842-0300][gc           ] GC(2) Concurrent Cycle
+[2019-12-05T20:40:19.842-0300][gc,marking   ] GC(2) Concurrent Clear Claimed Marks
+[2019-12-05T20:40:19.842-0300][gc,marking   ] GC(2) Concurrent Clear Claimed Marks 0,059ms
+[2019-12-05T20:40:19.842-0300][gc,marking   ] GC(2) Concurrent Scan Root Regions
+[2019-12-05T20:40:19.843-0300][gc,marking   ] GC(2) Concurrent Scan Root Regions 1,241ms
+[2019-12-05T20:40:19.843-0300][gc,marking   ] GC(2) Concurrent Mark (4,267s)
+[2019-12-05T20:40:19.843-0300][gc,marking   ] GC(2) Concurrent Mark From Roots
+[2019-12-05T20:40:19.843-0300][gc,task      ] GC(2) Using 1 workers of 1 for marking
+[2019-12-05T20:40:19.856-0300][gc,marking   ] GC(2) Concurrent Mark From Roots 12,842ms
+[2019-12-05T20:40:19.856-0300][gc,marking   ] GC(2) Concurrent Preclean
+[2019-12-05T20:40:19.856-0300][gc,marking   ] GC(2) Concurrent Preclean 0,097ms
+[2019-12-05T20:40:19.856-0300][gc,marking   ] GC(2) Concurrent Mark (4,267s, 4,280s) 12,990ms
+[2019-12-05T20:40:19.856-0300][gc,start     ] GC(2) Pause Remark
+[2019-12-05T20:40:19.859-0300][gc,stringtable] GC(2) Cleaned string and symbol table, strings: 4826 processed, 0 removed, symbols: 49654 processed, 53 removed
+[2019-12-05T20:40:19.859-0300][gc            ] GC(2) Pause Remark 7M->7M(1024M) 3,118ms
+[2019-12-05T20:40:19.859-0300][gc,cpu        ] GC(2) User=0,01s Sys=0,00s Real=0,00s
+[2019-12-05T20:40:19.859-0300][gc,marking    ] GC(2) Concurrent Rebuild Remembered Sets
+[2019-12-05T20:40:19.866-0300][gc,marking    ] GC(2) Concurrent Rebuild Remembered Sets 6,567ms
+[2019-12-05T20:40:19.866-0300][gc,start      ] GC(2) Pause Cleanup
+[2019-12-05T20:40:19.866-0300][gc            ] GC(2) Pause Cleanup 7M->7M(1024M) 0,266ms
+[2019-12-05T20:40:19.866-0300][gc,cpu        ] GC(2) User=0,00s Sys=0,00s Real=0,00s
+[2019-12-05T20:40:19.866-0300][gc,marking    ] GC(2) Concurrent Cleanup for Next Mark
+[2019-12-05T20:40:19.874-0300][gc,marking    ] GC(2) Concurrent Cleanup for Next Mark 7,645ms
+[2019-12-05T20:40:19.874-0300][gc            ] GC(2) Concurrent Cycle 32,416ms
+[2019-12-05T20:40:23.236-0300][gc,start      ] GC(3) Pause Young (Normal) (G1 Evacuation Pause)
+[2019-12-05T20:40:23.236-0300][gc,task       ] GC(3) Using 4 workers of 4 for evacuation
+[2019-12-05T20:40:23.247-0300][gc,phases     ] GC(3)   Pre Evacuate Collection Set: 0,0ms
+[2019-12-05T20:40:23.247-0300][gc,phases     ] GC(3)   Evacuate Collection Set: 10,1ms
+[2019-12-05T20:40:23.247-0300][gc,phases     ] GC(3)   Post Evacuate Collection Set: 0,5ms
+[2019-12-05T20:40:23.247-0300][gc,phases     ] GC(3)   Other: 0,3ms
+[2019-12-05T20:40:23.247-0300][gc,heap       ] GC(3) Eden regions: 50->0(46)
+[2019-12-05T20:40:23.247-0300][gc,heap       ] GC(3) Survivor regions: 1->5(7)
+[2019-12-05T20:40:23.247-0300][gc,heap       ] GC(3) Old regions: 8->8
+[2019-12-05T20:40:23.247-0300][gc,heap       ] GC(3) Humongous regions: 129->129
+[2019-12-05T20:40:23.247-0300][gc,metaspace  ] GC(3) Metaspace: 29195K->29195K(1075200K)
+[2019-12-05T20:40:23.247-0300][gc            ] GC(3) Pause Young (Normal) (G1 Evacuation Pause) 186M->140M(1024M) 10,981ms
+[2019-12-05T20:40:23.247-0300][gc,cpu        ] GC(3) User=0,04s Sys=0,00s Real=0,01s
+[2019-12-05T20:58:51.999-0300][gc,start      ] GC(4) Pause Young (Normal) (G1 Evacuation Pause)
+[2019-12-05T20:58:52.013-0300][gc,task       ] GC(4) Using 4 workers of 4 for evacuation
+[2019-12-05T20:58:52.049-0300][gc,mmu        ] GC(4) MMU target violated: 21,0ms (20,0ms/21,0ms)
+[2019-12-05T20:58:52.049-0300][gc,phases     ] GC(4)   Pre Evacuate Collection Set: 0,0ms
+[2019-12-05T20:58:52.049-0300][gc,phases     ] GC(4)   Evacuate Collection Set: 35,6ms
+[2019-12-05T20:58:52.049-0300][gc,phases     ] GC(4)   Post Evacuate Collection Set: 0,6ms
+[2019-12-05T20:58:52.049-0300][gc,phases     ] GC(4)   Other: 13,6ms
+[2019-12-05T20:58:52.049-0300][gc,heap       ] GC(4) Eden regions: 46->0(50)
+[2019-12-05T20:58:52.049-0300][gc,heap       ] GC(4) Survivor regions: 5->1(7)
+[2019-12-05T20:58:52.049-0300][gc,heap       ] GC(4) Old regions: 8->13
+[2019-12-05T20:58:52.049-0300][gc,heap       ] GC(4) Humongous regions: 129->129
+[2019-12-05T20:58:52.049-0300][gc,metaspace  ] GC(4) Metaspace: 30761K->30761K(1077248K)
+[2019-12-05T20:58:52.049-0300][gc            ] GC(4) Pause Young (Normal) (G1 Evacuation Pause) 186M->141M(1024M) 49,983ms
+[2019-12-05T20:58:52.049-0300][gc,cpu        ] GC(4) User=0,04s Sys=0,01s Real=0,05s
+[2019-12-05T21:30:33.576-0300][gc,start      ] GC(5) Pause Young (Normal) (G1 Evacuation Pause)
+[2019-12-05T21:30:33.597-0300][gc,task       ] GC(5) Using 4 workers of 4 for evacuation
+[2019-12-05T21:30:33.604-0300][gc,phases     ] GC(5)   Pre Evacuate Collection Set: 0,1ms
+[2019-12-05T21:30:33.604-0300][gc,phases     ] GC(5)   Evacuate Collection Set: 4,6ms
+[2019-12-05T21:30:33.604-0300][gc,phases     ] GC(5)   Post Evacuate Collection Set: 1,3ms
+[2019-12-05T21:30:33.604-0300][gc,phases     ] GC(5)   Other: 21,6ms
+[2019-12-05T21:30:33.604-0300][gc,heap       ] GC(5) Eden regions: 50->0(50)
+[2019-12-05T21:30:33.604-0300][gc,heap       ] GC(5) Survivor regions: 1->1(7)
+[2019-12-05T21:30:33.604-0300][gc,heap       ] GC(5) Old regions: 13->13
+[2019-12-05T21:30:33.604-0300][gc,heap       ] GC(5) Humongous regions: 129->129
+[2019-12-05T21:30:33.604-0300][gc,metaspace  ] GC(5) Metaspace: 30902K->30902K(1077248K)
+[2019-12-05T21:30:33.604-0300][gc            ] GC(5) Pause Young (Normal) (G1 Evacuation Pause) 191M->140M(1024M) 27,728ms
+[2019-12-05T21:30:33.604-0300][gc,cpu        ] GC(5) User=0,02s Sys=0,00s Real=0,03s
+[2019-12-05T21:57:26.411-0300][gc,start      ] GC(6) Pause Young (Normal) (G1 Evacuation Pause)
+[2019-12-05T21:57:26.411-0300][gc,task       ] GC(6) Using 4 workers of 4 for evacuation
+[2019-12-05T21:57:26.414-0300][gc,phases     ] GC(6)   Pre Evacuate Collection Set: 0,0ms
+[2019-12-05T21:57:26.414-0300][gc,phases     ] GC(6)   Evacuate Collection Set: 2,9ms
+[2019-12-05T21:57:26.414-0300][gc,phases     ] GC(6)   Post Evacuate Collection Set: 0,7ms
+[2019-12-05T21:57:26.414-0300][gc,phases     ] GC(6)   Other: 0,2ms
+[2019-12-05T21:57:26.414-0300][gc,heap       ] GC(6) Eden regions: 50->0(50)
+[2019-12-05T21:57:26.414-0300][gc,heap       ] GC(6) Survivor regions: 1->1(7)
+[2019-12-05T21:57:26.414-0300][gc,heap       ] GC(6) Old regions: 13->13
+[2019-12-05T21:57:26.414-0300][gc,heap       ] GC(6) Humongous regions: 129->129
+[2019-12-05T21:57:26.414-0300][gc,metaspace  ] GC(6) Metaspace: 31763K->31763K(1077248K)
+[2019-12-05T21:57:26.414-0300][gc            ] GC(6) Pause Young (Normal) (G1 Evacuation Pause) 190M->140M(1024M) 3,867ms
+[2019-12-05T21:57:26.414-0300][gc,cpu        ] GC(6) User=0,02s Sys=0,00s Real=0,00s
+[2019-12-05T21:57:26.428-0300][gc,heap,exit  ] Heap
+[2019-12-05T21:57:26.428-0300][gc,heap,exit  ]  garbage-first heap   total 1048576K, used 145402K [0x00000000c0000000, 0x0000000100000000)
+[2019-12-05T21:57:26.428-0300][gc,heap,exit  ]   region size 1024K, 3 young (3072K), 1 survivors (1024K)
+[2019-12-05T21:57:26.428-0300][gc,heap,exit  ]  Metaspace       used 31792K, capacity 33391K, committed 33584K, reserved 1077248K
+[2019-12-05T21:57:26.428-0300][gc,heap,exit  ]   class space    used 4377K, capacity 5130K, committed 5248K, reserved 1048576K

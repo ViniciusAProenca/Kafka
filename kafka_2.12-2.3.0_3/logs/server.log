@@ -1,0 +1,1152 @@
+[2019-12-05 17:34:52,357] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2019-12-05 17:34:54,003] INFO Registered signal handlers for TERM, INT, HUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2019-12-05 17:34:54,005] INFO starting (kafka.server.KafkaServer)
+[2019-12-05 17:34:54,007] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2019-12-05 17:34:54,128] INFO [ZooKeeperClient Kafka server] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2019-12-05 17:34:54,219] INFO Client environment:zookeeper.version=3.4.14-4c25d480e66aadd371de8bd2fd8da255ac140bcf, built on 03/06/2019 16:18 GMT (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 17:34:54,219] INFO Client environment:host.name=vinicius (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 17:34:54,219] INFO Client environment:java.version=11.0.4 (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 17:34:54,219] INFO Client environment:java.vendor=Ubuntu (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 17:34:54,219] INFO Client environment:java.home=/usr/lib/jvm/java-11-openjdk-amd64 (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 17:34:54,219] INFO Client environment:java.class.path=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/activation-1.1.1.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/aopalliance-repackaged-2.5.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/argparse4j-0.7.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/audience-annotations-0.5.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/commons-lang3-3.8.1.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/connect-api-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/connect-basic-auth-extension-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/connect-file-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/connect-json-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/connect-runtime-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/connect-transforms-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/guava-20.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/hk2-api-2.5.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/hk2-locator-2.5.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/hk2-utils-2.5.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jackson-annotations-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jackson-core-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jackson-databind-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jackson-dataformat-csv-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jackson-datatype-jdk8-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jackson-jaxrs-base-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jackson-jaxrs-json-provider-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jackson-module-jaxb-annotations-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jackson-module-paranamer-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jackson-module-scala_2.12-2.9.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jakarta.annotation-api-1.3.4.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jakarta.inject-2.5.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jakarta.ws.rs-api-2.1.5.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/javassist-3.22.0-CR2.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/javax.servlet-api-3.1.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/javax.ws.rs-api-2.1.1.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jaxb-api-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jersey-client-2.28.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jersey-common-2.28.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jersey-container-servlet-2.28.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jersey-container-servlet-core-2.28.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jersey-hk2-2.28.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jersey-media-jaxb-2.28.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jersey-server-2.28.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jetty-client-9.4.18.v20190429.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jetty-continuation-9.4.18.v20190429.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jetty-http-9.4.18.v20190429.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jetty-io-9.4.18.v20190429.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jetty-security-9.4.18.v20190429.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jetty-server-9.4.18.v20190429.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jetty-servlet-9.4.18.v20190429.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jetty-servlets-9.4.18.v20190429.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jetty-util-9.4.18.v20190429.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jopt-simple-5.0.4.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/jsr305-3.0.2.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/kafka_2.12-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/kafka_2.12-2.3.0-sources.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/kafka-clients-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/kafka-log4j-appender-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/kafka-streams-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/kafka-streams-examples-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/kafka-streams-scala_2.12-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/kafka-streams-test-utils-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/kafka-tools-2.3.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/log4j-1.2.17.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/lz4-java-1.6.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/maven-artifact-3.6.1.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/metrics-core-2.2.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/osgi-resource-locator-1.0.1.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/paranamer-2.8.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/plexus-utils-3.2.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/reflections-0.9.11.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/rocksdbjni-5.18.3.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/scala-library-2.12.8.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/scala-logging_2.12-3.9.0.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/scala-reflect-2.12.8.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/slf4j-api-1.7.26.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/slf4j-log4j12-1.7.26.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/snappy-java-1.1.7.3.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/spotbugs-annotations-3.1.9.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/validation-api-2.0.1.Final.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/zkclient-0.11.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/zookeeper-3.4.14.jar:/home/vinicius/Downloads/kafka_2.12-2.3.0_3/bin/../libs/zstd-jni-1.4.0-1.jar (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 17:34:54,220] INFO Client environment:java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 17:34:54,220] INFO Client environment:java.io.tmpdir=/tmp (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 17:34:54,220] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 17:34:54,220] INFO Client environment:os.name=Linux (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 17:34:54,220] INFO Client environment:os.arch=amd64 (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 17:34:54,220] INFO Client environment:os.version=4.15.0-72-generic (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 17:34:54,220] INFO Client environment:user.name=vinicius (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 17:34:54,220] INFO Client environment:user.home=/home/vinicius (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 17:34:54,220] INFO Client environment:user.dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3 (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 17:34:54,221] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@475c9c31 (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 17:34:54,469] INFO [ZooKeeperClient Kafka server] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-12-05 17:34:54,694] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 17:34:54,870] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 17:34:56,866] INFO Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x16ed33f883a0004, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 17:34:56,893] INFO [ZooKeeperClient Kafka server] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-12-05 17:34:58,241] INFO Cluster ID = 3wDhuaKORbSrzz79c74GTg (kafka.server.KafkaServer)
+[2019-12-05 17:34:58,259] WARN No meta.properties file under dir /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2019-12-05 17:34:58,437] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 3
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.3-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = PLAINTEXT://:9093
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.3-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = [DEFAULT]
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-12-05 17:34:58,466] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 3
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 1800000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.3-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = PLAINTEXT://:9093
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.max.compaction.lag.ms = 9223372036854775807
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.3-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections = 2147483647
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = [DEFAULT]
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-12-05 17:34:58,554] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-12-05 17:34:58,554] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-12-05 17:34:58,560] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-12-05 17:34:58,624] INFO Loading logs. (kafka.log.LogManager)
+[2019-12-05 17:34:58,661] INFO Logs loading complete in 37 ms. (kafka.log.LogManager)
+[2019-12-05 17:34:58,700] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2019-12-05 17:34:58,703] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2019-12-05 17:35:03,093] INFO Awaiting socket connections on 0.0.0.0:9093. (kafka.network.Acceptor)
+[2019-12-05 17:35:03,380] INFO [SocketServer brokerId=3] Created data-plane acceptor and processors for endpoint : EndPoint(null,9093,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.network.SocketServer)
+[2019-12-05 17:35:03,382] INFO [SocketServer brokerId=3] Started 1 acceptor threads for data-plane (kafka.network.SocketServer)
+[2019-12-05 17:35:03,508] INFO [ExpirationReaper-3-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:35:03,530] INFO [ExpirationReaper-3-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:35:03,529] INFO [ExpirationReaper-3-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:35:03,531] INFO [ExpirationReaper-3-ElectPreferredLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:35:03,578] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-12-05 17:35:04,074] INFO Creating /brokers/ids/3 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2019-12-05 17:35:04,506] INFO Stat of the created znode at /brokers/ids/3 is: 63,63,1575574504166,1575574504166,1,0,0,103252111298002948,186,0,63
+ (kafka.zk.KafkaZkClient)
+[2019-12-05 17:35:04,507] INFO Registered broker 3 at path /brokers/ids/3 with addresses: ArrayBuffer(EndPoint(vinicius,9093,ListenerName(PLAINTEXT),PLAINTEXT)), czxid (broker epoch): 63 (kafka.zk.KafkaZkClient)
+[2019-12-05 17:35:04,510] WARN No meta.properties file under dir /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2019-12-05 17:35:05,294] INFO [ExpirationReaper-3-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:35:05,348] INFO [ExpirationReaper-3-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:35:05,349] INFO [ExpirationReaper-3-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:35:05,442] INFO [GroupCoordinator 3]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2019-12-05 17:35:05,445] INFO [GroupCoordinator 3]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2019-12-05 17:35:05,464] INFO [GroupMetadataManager brokerId=3] Removed 0 expired offsets in 19 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-12-05 17:35:05,518] INFO [ProducerId Manager 3]: Acquired new producerId block (brokerId:3,blockStartProducerId:2000,blockEndProducerId:2999) by writing to Zk with path version 3 (kafka.coordinator.transaction.ProducerIdManager)
+[2019-12-05 17:35:05,837] INFO [TransactionCoordinator id=3] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2019-12-05 17:35:05,839] INFO [Transaction Marker Channel Manager 3]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2019-12-05 17:35:05,839] INFO [TransactionCoordinator id=3] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2019-12-05 17:35:06,338] INFO [/config/changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-12-05 17:35:06,559] INFO [SocketServer brokerId=3] Started data-plane processors for 1 acceptors (kafka.network.SocketServer)
+[2019-12-05 17:35:06,920] INFO Kafka version: 2.3.0 (org.apache.kafka.common.utils.AppInfoParser)
+[2019-12-05 17:35:06,920] INFO Kafka commitId: fc1aaa116b661c8a (org.apache.kafka.common.utils.AppInfoParser)
+[2019-12-05 17:35:06,920] INFO Kafka startTimeMs: 1575574506560 (org.apache.kafka.common.utils.AppInfoParser)
+[2019-12-05 17:35:06,922] INFO [KafkaServer id=3] started (kafka.server.KafkaServer)
+[2019-12-05 17:35:52,522] WARN Client session timed out, have not heard from server in 4002ms for sessionid 0x16ed33f883a0004 (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 17:35:53,337] INFO Client session timed out, have not heard from server in 4002ms for sessionid 0x16ed33f883a0004, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 17:35:54,877] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 17:35:54,878] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 17:36:00,881] WARN Client session timed out, have not heard from server in 6003ms for sessionid 0x16ed33f883a0004 (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 17:36:00,881] INFO Client session timed out, have not heard from server in 6003ms for sessionid 0x16ed33f883a0004, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 17:36:02,104] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 17:36:02,105] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 17:36:04,179] WARN Unable to reconnect to ZooKeeper service, session 0x16ed33f883a0004 has expired (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 17:36:04,179] INFO Unable to reconnect to ZooKeeper service, session 0x16ed33f883a0004 has expired, closing socket connection (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 17:36:04,180] INFO EventThread shut down for session: 0x16ed33f883a0004 (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 17:36:04,181] INFO [ZooKeeperClient Kafka server] Session expired. (kafka.zookeeper.ZooKeeperClient)
+[2019-12-05 17:36:04,241] INFO [ZooKeeperClient Kafka server] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2019-12-05 17:36:04,242] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@475c9c31 (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 17:36:04,261] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 17:36:04,262] INFO Socket connection established to localhost/127.0.0.1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 17:36:04,310] INFO Creating /brokers/ids/3 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2019-12-05 17:36:04,605] INFO Session establishment complete on server localhost/127.0.0.1:2181, sessionid = 0x16ed33f883a0006, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 17:36:04,691] INFO Stat of the created znode at /brokers/ids/3 is: 72,72,1575574564613,1575574564613,1,0,0,103252111298002950,186,0,72
+ (kafka.zk.KafkaZkClient)
+[2019-12-05 17:36:04,691] INFO Registered broker 3 at path /brokers/ids/3 with addresses: ArrayBuffer(EndPoint(vinicius,9093,ListenerName(PLAINTEXT),PLAINTEXT)), czxid (broker epoch): 72 (kafka.zk.KafkaZkClient)
+[2019-12-05 17:39:11,084] INFO [ReplicaFetcherManager on broker 3] Removed fetcher for partitions Set(demo-42, demo-39, demo-27, demo-48, demo-33, demo-3, demo-0, demo-9, demo-12, demo-21, demo-24, demo-30, demo-36, demo-6, demo-18, demo-45, demo-15) (kafka.server.ReplicaFetcherManager)
+[2019-12-05 17:39:12,474] INFO [Log partition=demo-27, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:12,557] INFO [Log partition=demo-27, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 957 ms (kafka.log.Log)
+[2019-12-05 17:39:12,560] INFO Created log for partition demo-27 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:12,562] INFO [Partition demo-27 broker=3] No checkpointed highwatermark is found for partition demo-27 (kafka.cluster.Partition)
+[2019-12-05 17:39:12,715] INFO Replica loaded for partition demo-27 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:12,716] INFO Replica loaded for partition demo-27 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:12,716] INFO Replica loaded for partition demo-27 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:12,718] INFO [Partition demo-27 broker=3] demo-27 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-12-05 17:39:13,121] INFO [Log partition=demo-24, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:13,122] INFO [Log partition=demo-24, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:13,123] INFO Created log for partition demo-24 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:13,123] INFO [Partition demo-24 broker=3] No checkpointed highwatermark is found for partition demo-24 (kafka.cluster.Partition)
+[2019-12-05 17:39:13,123] INFO Replica loaded for partition demo-24 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:13,123] INFO Replica loaded for partition demo-24 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:13,123] INFO Replica loaded for partition demo-24 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:13,124] INFO [Partition demo-24 broker=3] demo-24 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-12-05 17:39:13,324] INFO [Log partition=demo-21, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:13,325] INFO [Log partition=demo-21, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:13,326] INFO Created log for partition demo-21 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:13,326] INFO [Partition demo-21 broker=3] No checkpointed highwatermark is found for partition demo-21 (kafka.cluster.Partition)
+[2019-12-05 17:39:13,326] INFO Replica loaded for partition demo-21 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:13,326] INFO Replica loaded for partition demo-21 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:13,326] INFO Replica loaded for partition demo-21 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:13,326] INFO [Partition demo-21 broker=3] demo-21 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-12-05 17:39:13,501] INFO [Log partition=demo-18, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:13,502] INFO [Log partition=demo-18, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:13,503] INFO Created log for partition demo-18 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:13,504] INFO [Partition demo-18 broker=3] No checkpointed highwatermark is found for partition demo-18 (kafka.cluster.Partition)
+[2019-12-05 17:39:13,504] INFO Replica loaded for partition demo-18 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:13,504] INFO Replica loaded for partition demo-18 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:13,504] INFO Replica loaded for partition demo-18 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:13,504] INFO [Partition demo-18 broker=3] demo-18 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-12-05 17:39:13,713] INFO [Log partition=demo-15, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:13,714] INFO [Log partition=demo-15, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:13,716] INFO Created log for partition demo-15 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:13,716] INFO [Partition demo-15 broker=3] No checkpointed highwatermark is found for partition demo-15 (kafka.cluster.Partition)
+[2019-12-05 17:39:13,717] INFO Replica loaded for partition demo-15 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:13,717] INFO Replica loaded for partition demo-15 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:13,717] INFO Replica loaded for partition demo-15 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:13,718] INFO [Partition demo-15 broker=3] demo-15 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-12-05 17:39:13,872] INFO [Log partition=demo-12, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:13,874] INFO [Log partition=demo-12, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 6 ms (kafka.log.Log)
+[2019-12-05 17:39:13,877] INFO Created log for partition demo-12 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:13,877] INFO [Partition demo-12 broker=3] No checkpointed highwatermark is found for partition demo-12 (kafka.cluster.Partition)
+[2019-12-05 17:39:13,877] INFO Replica loaded for partition demo-12 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:13,877] INFO Replica loaded for partition demo-12 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:13,877] INFO Replica loaded for partition demo-12 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:13,878] INFO [Partition demo-12 broker=3] demo-12 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-12-05 17:39:14,079] INFO [Log partition=demo-9, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:14,079] INFO [Log partition=demo-9, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-12-05 17:39:14,080] INFO Created log for partition demo-9 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:14,081] INFO [Partition demo-9 broker=3] No checkpointed highwatermark is found for partition demo-9 (kafka.cluster.Partition)
+[2019-12-05 17:39:14,081] INFO Replica loaded for partition demo-9 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:14,081] INFO Replica loaded for partition demo-9 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:14,081] INFO Replica loaded for partition demo-9 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:14,081] INFO [Partition demo-9 broker=3] demo-9 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-12-05 17:39:14,290] INFO [Log partition=demo-6, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:14,291] INFO [Log partition=demo-6, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 17 ms (kafka.log.Log)
+[2019-12-05 17:39:14,292] INFO Created log for partition demo-6 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:14,293] INFO [Partition demo-6 broker=3] No checkpointed highwatermark is found for partition demo-6 (kafka.cluster.Partition)
+[2019-12-05 17:39:14,293] INFO Replica loaded for partition demo-6 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:14,293] INFO Replica loaded for partition demo-6 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:14,294] INFO Replica loaded for partition demo-6 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:14,294] INFO [Partition demo-6 broker=3] demo-6 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-12-05 17:39:14,440] INFO [Log partition=demo-3, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:14,441] INFO [Log partition=demo-3, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-12-05 17:39:14,441] INFO Created log for partition demo-3 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:14,442] INFO [Partition demo-3 broker=3] No checkpointed highwatermark is found for partition demo-3 (kafka.cluster.Partition)
+[2019-12-05 17:39:14,442] INFO Replica loaded for partition demo-3 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:14,442] INFO Replica loaded for partition demo-3 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:14,442] INFO Replica loaded for partition demo-3 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:14,442] INFO [Partition demo-3 broker=3] demo-3 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-12-05 17:39:14,744] INFO [Log partition=demo-0, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:14,745] INFO [Log partition=demo-0, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:14,746] INFO Created log for partition demo-0 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:14,746] INFO [Partition demo-0 broker=3] No checkpointed highwatermark is found for partition demo-0 (kafka.cluster.Partition)
+[2019-12-05 17:39:14,746] INFO Replica loaded for partition demo-0 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:14,746] INFO Replica loaded for partition demo-0 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:14,746] INFO Replica loaded for partition demo-0 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:14,746] INFO [Partition demo-0 broker=3] demo-0 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-12-05 17:39:14,955] INFO [Log partition=demo-48, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:14,957] INFO [Log partition=demo-48, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 5 ms (kafka.log.Log)
+[2019-12-05 17:39:14,959] INFO Created log for partition demo-48 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:14,960] INFO [Partition demo-48 broker=3] No checkpointed highwatermark is found for partition demo-48 (kafka.cluster.Partition)
+[2019-12-05 17:39:14,960] INFO Replica loaded for partition demo-48 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:14,961] INFO Replica loaded for partition demo-48 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:14,961] INFO Replica loaded for partition demo-48 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:14,961] INFO [Partition demo-48 broker=3] demo-48 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-12-05 17:39:15,201] INFO [Log partition=demo-45, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:15,203] INFO [Log partition=demo-45, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 5 ms (kafka.log.Log)
+[2019-12-05 17:39:15,205] INFO Created log for partition demo-45 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:15,205] INFO [Partition demo-45 broker=3] No checkpointed highwatermark is found for partition demo-45 (kafka.cluster.Partition)
+[2019-12-05 17:39:15,205] INFO Replica loaded for partition demo-45 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:15,205] INFO Replica loaded for partition demo-45 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:15,205] INFO Replica loaded for partition demo-45 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:15,206] INFO [Partition demo-45 broker=3] demo-45 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-12-05 17:39:15,365] INFO [Log partition=demo-42, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:15,367] INFO [Log partition=demo-42, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 5 ms (kafka.log.Log)
+[2019-12-05 17:39:15,368] INFO Created log for partition demo-42 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:15,369] INFO [Partition demo-42 broker=3] No checkpointed highwatermark is found for partition demo-42 (kafka.cluster.Partition)
+[2019-12-05 17:39:15,369] INFO Replica loaded for partition demo-42 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:15,369] INFO Replica loaded for partition demo-42 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:15,369] INFO Replica loaded for partition demo-42 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:15,369] INFO [Partition demo-42 broker=3] demo-42 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-12-05 17:39:15,500] INFO [Log partition=demo-39, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:15,501] INFO [Log partition=demo-39, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:15,502] INFO Created log for partition demo-39 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:15,503] INFO [Partition demo-39 broker=3] No checkpointed highwatermark is found for partition demo-39 (kafka.cluster.Partition)
+[2019-12-05 17:39:15,503] INFO Replica loaded for partition demo-39 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:15,504] INFO Replica loaded for partition demo-39 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:15,504] INFO Replica loaded for partition demo-39 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:15,504] INFO [Partition demo-39 broker=3] demo-39 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-12-05 17:39:15,747] INFO [Log partition=demo-36, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:15,747] INFO [Log partition=demo-36, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 4 ms (kafka.log.Log)
+[2019-12-05 17:39:15,818] INFO Created log for partition demo-36 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:15,818] INFO [Partition demo-36 broker=3] No checkpointed highwatermark is found for partition demo-36 (kafka.cluster.Partition)
+[2019-12-05 17:39:15,818] INFO Replica loaded for partition demo-36 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:15,819] INFO Replica loaded for partition demo-36 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:15,819] INFO Replica loaded for partition demo-36 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:15,819] INFO [Partition demo-36 broker=3] demo-36 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-12-05 17:39:16,024] INFO [Log partition=demo-33, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:16,025] INFO [Log partition=demo-33, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:16,026] INFO Created log for partition demo-33 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:16,026] INFO [Partition demo-33 broker=3] No checkpointed highwatermark is found for partition demo-33 (kafka.cluster.Partition)
+[2019-12-05 17:39:16,026] INFO Replica loaded for partition demo-33 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,026] INFO Replica loaded for partition demo-33 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,027] INFO Replica loaded for partition demo-33 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,027] INFO [Partition demo-33 broker=3] demo-33 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-12-05 17:39:16,225] INFO [Log partition=demo-30, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:16,226] INFO [Log partition=demo-30, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:16,227] INFO Created log for partition demo-30 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:16,227] INFO [Partition demo-30 broker=3] No checkpointed highwatermark is found for partition demo-30 (kafka.cluster.Partition)
+[2019-12-05 17:39:16,228] INFO Replica loaded for partition demo-30 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,228] INFO Replica loaded for partition demo-30 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,228] INFO Replica loaded for partition demo-30 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,228] INFO [Partition demo-30 broker=3] demo-30 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-12-05 17:39:16,482] INFO Replica loaded for partition demo-8 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,532] INFO [Log partition=demo-8, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:16,533] INFO [Log partition=demo-8, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 5 ms (kafka.log.Log)
+[2019-12-05 17:39:16,534] INFO Created log for partition demo-8 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:16,534] INFO [Partition demo-8 broker=3] No checkpointed highwatermark is found for partition demo-8 (kafka.cluster.Partition)
+[2019-12-05 17:39:16,535] INFO Replica loaded for partition demo-8 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,535] INFO Replica loaded for partition demo-8 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,537] INFO Replica loaded for partition demo-46 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,542] INFO [Log partition=demo-46, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:16,543] INFO [Log partition=demo-46, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:16,544] INFO Created log for partition demo-46 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:16,544] INFO [Partition demo-46 broker=3] No checkpointed highwatermark is found for partition demo-46 (kafka.cluster.Partition)
+[2019-12-05 17:39:16,545] INFO Replica loaded for partition demo-46 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,545] INFO Replica loaded for partition demo-46 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,545] INFO Replica loaded for partition demo-5 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,545] INFO Replica loaded for partition demo-5 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,559] INFO [Log partition=demo-5, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:16,559] INFO [Log partition=demo-5, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:16,561] INFO Created log for partition demo-5 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:16,561] INFO [Partition demo-5 broker=3] No checkpointed highwatermark is found for partition demo-5 (kafka.cluster.Partition)
+[2019-12-05 17:39:16,561] INFO Replica loaded for partition demo-5 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,561] INFO Replica loaded for partition demo-43 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,562] INFO Replica loaded for partition demo-43 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,622] INFO [Log partition=demo-43, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:16,623] INFO [Log partition=demo-43, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 4 ms (kafka.log.Log)
+[2019-12-05 17:39:16,625] INFO Created log for partition demo-43 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:16,626] INFO [Partition demo-43 broker=3] No checkpointed highwatermark is found for partition demo-43 (kafka.cluster.Partition)
+[2019-12-05 17:39:16,626] INFO Replica loaded for partition demo-43 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,627] INFO Replica loaded for partition demo-2 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,704] INFO [Log partition=demo-2, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:16,705] INFO [Log partition=demo-2, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 4 ms (kafka.log.Log)
+[2019-12-05 17:39:16,706] INFO Created log for partition demo-2 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:16,706] INFO [Partition demo-2 broker=3] No checkpointed highwatermark is found for partition demo-2 (kafka.cluster.Partition)
+[2019-12-05 17:39:16,706] INFO Replica loaded for partition demo-2 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,706] INFO Replica loaded for partition demo-2 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,707] INFO Replica loaded for partition demo-40 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,839] INFO [Log partition=demo-40, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:16,840] INFO [Log partition=demo-40, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 4 ms (kafka.log.Log)
+[2019-12-05 17:39:16,841] INFO Created log for partition demo-40 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:16,842] INFO [Partition demo-40 broker=3] No checkpointed highwatermark is found for partition demo-40 (kafka.cluster.Partition)
+[2019-12-05 17:39:16,842] INFO Replica loaded for partition demo-40 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,842] INFO Replica loaded for partition demo-40 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,843] INFO Replica loaded for partition demo-37 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,843] INFO Replica loaded for partition demo-37 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,911] INFO [Log partition=demo-37, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:16,912] INFO [Log partition=demo-37, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:16,913] INFO Created log for partition demo-37 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:16,914] INFO [Partition demo-37 broker=3] No checkpointed highwatermark is found for partition demo-37 (kafka.cluster.Partition)
+[2019-12-05 17:39:16,914] INFO Replica loaded for partition demo-37 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,914] INFO Replica loaded for partition demo-34 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,918] INFO [Log partition=demo-34, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:16,919] INFO [Log partition=demo-34, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-12-05 17:39:16,922] INFO Created log for partition demo-34 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:16,922] INFO [Partition demo-34 broker=3] No checkpointed highwatermark is found for partition demo-34 (kafka.cluster.Partition)
+[2019-12-05 17:39:16,922] INFO Replica loaded for partition demo-34 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,922] INFO Replica loaded for partition demo-34 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,923] INFO Replica loaded for partition demo-31 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,923] INFO Replica loaded for partition demo-31 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,927] INFO [Log partition=demo-31, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:16,928] INFO [Log partition=demo-31, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:16,929] INFO Created log for partition demo-31 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:16,929] INFO [Partition demo-31 broker=3] No checkpointed highwatermark is found for partition demo-31 (kafka.cluster.Partition)
+[2019-12-05 17:39:16,929] INFO Replica loaded for partition demo-31 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,929] INFO Replica loaded for partition demo-28 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,933] INFO [Log partition=demo-28, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:16,934] INFO [Log partition=demo-28, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:16,935] INFO Created log for partition demo-28 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:16,935] INFO [Partition demo-28 broker=3] No checkpointed highwatermark is found for partition demo-28 (kafka.cluster.Partition)
+[2019-12-05 17:39:16,935] INFO Replica loaded for partition demo-28 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,935] INFO Replica loaded for partition demo-28 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,936] INFO Replica loaded for partition demo-47 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,936] INFO Replica loaded for partition demo-47 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,939] INFO [Log partition=demo-47, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:16,939] INFO [Log partition=demo-47, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-12-05 17:39:16,941] INFO Created log for partition demo-47 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:16,941] INFO [Partition demo-47 broker=3] No checkpointed highwatermark is found for partition demo-47 (kafka.cluster.Partition)
+[2019-12-05 17:39:16,941] INFO Replica loaded for partition demo-47 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:16,942] INFO Replica loaded for partition demo-44 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,395] INFO [Log partition=demo-44, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:17,396] INFO [Log partition=demo-44, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 4 ms (kafka.log.Log)
+[2019-12-05 17:39:17,397] INFO Created log for partition demo-44 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:17,397] INFO [Partition demo-44 broker=3] No checkpointed highwatermark is found for partition demo-44 (kafka.cluster.Partition)
+[2019-12-05 17:39:17,397] INFO Replica loaded for partition demo-44 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,397] INFO Replica loaded for partition demo-44 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,397] INFO Replica loaded for partition demo-25 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,397] INFO Replica loaded for partition demo-25 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,403] INFO [Log partition=demo-25, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:17,404] INFO [Log partition=demo-25, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:17,404] INFO Created log for partition demo-25 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:17,405] INFO [Partition demo-25 broker=3] No checkpointed highwatermark is found for partition demo-25 (kafka.cluster.Partition)
+[2019-12-05 17:39:17,405] INFO Replica loaded for partition demo-25 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,405] INFO Replica loaded for partition demo-22 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,408] INFO [Log partition=demo-22, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:17,408] INFO [Log partition=demo-22, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 1 ms (kafka.log.Log)
+[2019-12-05 17:39:17,409] INFO Created log for partition demo-22 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:17,409] INFO [Partition demo-22 broker=3] No checkpointed highwatermark is found for partition demo-22 (kafka.cluster.Partition)
+[2019-12-05 17:39:17,409] INFO Replica loaded for partition demo-22 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,409] INFO Replica loaded for partition demo-22 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,410] INFO Replica loaded for partition demo-41 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,410] INFO Replica loaded for partition demo-41 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,413] INFO [Log partition=demo-41, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:17,414] INFO [Log partition=demo-41, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-12-05 17:39:17,415] INFO Created log for partition demo-41 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:17,415] INFO [Partition demo-41 broker=3] No checkpointed highwatermark is found for partition demo-41 (kafka.cluster.Partition)
+[2019-12-05 17:39:17,415] INFO Replica loaded for partition demo-41 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,416] INFO Replica loaded for partition demo-38 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,420] INFO [Log partition=demo-38, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:17,420] INFO [Log partition=demo-38, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-12-05 17:39:17,421] INFO Created log for partition demo-38 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:17,422] INFO [Partition demo-38 broker=3] No checkpointed highwatermark is found for partition demo-38 (kafka.cluster.Partition)
+[2019-12-05 17:39:17,422] INFO Replica loaded for partition demo-38 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,422] INFO Replica loaded for partition demo-38 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,422] INFO Replica loaded for partition demo-10 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,426] INFO [Log partition=demo-10, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:17,426] INFO [Log partition=demo-10, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-12-05 17:39:17,428] INFO Created log for partition demo-10 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:17,429] INFO [Partition demo-10 broker=3] No checkpointed highwatermark is found for partition demo-10 (kafka.cluster.Partition)
+[2019-12-05 17:39:17,429] INFO Replica loaded for partition demo-10 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,429] INFO Replica loaded for partition demo-10 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,429] INFO Replica loaded for partition demo-29 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,429] INFO Replica loaded for partition demo-29 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,433] INFO [Log partition=demo-29, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:17,434] INFO [Log partition=demo-29, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:17,435] INFO Created log for partition demo-29 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:17,435] INFO [Partition demo-29 broker=3] No checkpointed highwatermark is found for partition demo-29 (kafka.cluster.Partition)
+[2019-12-05 17:39:17,435] INFO Replica loaded for partition demo-29 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,436] INFO Replica loaded for partition demo-19 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,436] INFO Replica loaded for partition demo-19 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,693] INFO [Log partition=demo-19, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:17,693] INFO [Log partition=demo-19, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 203 ms (kafka.log.Log)
+[2019-12-05 17:39:17,695] INFO Created log for partition demo-19 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:17,695] INFO [Partition demo-19 broker=3] No checkpointed highwatermark is found for partition demo-19 (kafka.cluster.Partition)
+[2019-12-05 17:39:17,695] INFO Replica loaded for partition demo-19 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,696] INFO Replica loaded for partition demo-7 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,696] INFO Replica loaded for partition demo-7 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,701] INFO [Log partition=demo-7, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:17,702] INFO [Log partition=demo-7, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:17,704] INFO Created log for partition demo-7 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:17,704] INFO [Partition demo-7 broker=3] No checkpointed highwatermark is found for partition demo-7 (kafka.cluster.Partition)
+[2019-12-05 17:39:17,704] INFO Replica loaded for partition demo-7 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,704] INFO Replica loaded for partition demo-16 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,708] INFO [Log partition=demo-16, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:17,709] INFO [Log partition=demo-16, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:17,710] INFO Created log for partition demo-16 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:17,710] INFO [Partition demo-16 broker=3] No checkpointed highwatermark is found for partition demo-16 (kafka.cluster.Partition)
+[2019-12-05 17:39:17,711] INFO Replica loaded for partition demo-16 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,711] INFO Replica loaded for partition demo-16 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,711] INFO Replica loaded for partition demo-35 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,711] INFO Replica loaded for partition demo-35 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,880] INFO [Log partition=demo-35, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:17,881] INFO [Log partition=demo-35, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:17,882] INFO Created log for partition demo-35 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:17,882] INFO [Partition demo-35 broker=3] No checkpointed highwatermark is found for partition demo-35 (kafka.cluster.Partition)
+[2019-12-05 17:39:17,882] INFO Replica loaded for partition demo-35 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,883] INFO Replica loaded for partition demo-26 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,890] INFO [Log partition=demo-26, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:17,890] INFO [Log partition=demo-26, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 4 ms (kafka.log.Log)
+[2019-12-05 17:39:17,892] INFO Created log for partition demo-26 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:17,893] INFO [Partition demo-26 broker=3] No checkpointed highwatermark is found for partition demo-26 (kafka.cluster.Partition)
+[2019-12-05 17:39:17,893] INFO Replica loaded for partition demo-26 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,893] INFO Replica loaded for partition demo-26 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,893] INFO Replica loaded for partition demo-23 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,894] INFO Replica loaded for partition demo-23 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,898] INFO [Log partition=demo-23, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:17,899] INFO [Log partition=demo-23, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:17,900] INFO Created log for partition demo-23 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:17,900] INFO [Partition demo-23 broker=3] No checkpointed highwatermark is found for partition demo-23 (kafka.cluster.Partition)
+[2019-12-05 17:39:17,900] INFO Replica loaded for partition demo-23 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,901] INFO Replica loaded for partition demo-32 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,911] INFO [Log partition=demo-32, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:17,912] INFO [Log partition=demo-32, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-12-05 17:39:17,914] INFO Created log for partition demo-32 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:17,914] INFO [Partition demo-32 broker=3] No checkpointed highwatermark is found for partition demo-32 (kafka.cluster.Partition)
+[2019-12-05 17:39:17,914] INFO Replica loaded for partition demo-32 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,914] INFO Replica loaded for partition demo-32 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:17,915] INFO Replica loaded for partition demo-4 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,205] INFO [Log partition=demo-4, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:18,206] INFO [Log partition=demo-4, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 102 ms (kafka.log.Log)
+[2019-12-05 17:39:18,208] INFO Created log for partition demo-4 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:18,209] INFO [Partition demo-4 broker=3] No checkpointed highwatermark is found for partition demo-4 (kafka.cluster.Partition)
+[2019-12-05 17:39:18,209] INFO Replica loaded for partition demo-4 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,209] INFO Replica loaded for partition demo-4 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,211] INFO Replica loaded for partition demo-13 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,211] INFO Replica loaded for partition demo-13 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,216] INFO [Log partition=demo-13, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:18,217] INFO [Log partition=demo-13, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 2 ms (kafka.log.Log)
+[2019-12-05 17:39:18,219] INFO Created log for partition demo-13 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:18,220] INFO [Partition demo-13 broker=3] No checkpointed highwatermark is found for partition demo-13 (kafka.cluster.Partition)
+[2019-12-05 17:39:18,220] INFO Replica loaded for partition demo-13 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,224] INFO Replica loaded for partition demo-20 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,229] INFO [Log partition=demo-20, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:18,230] INFO [Log partition=demo-20, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:18,232] INFO Created log for partition demo-20 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:18,232] INFO [Partition demo-20 broker=3] No checkpointed highwatermark is found for partition demo-20 (kafka.cluster.Partition)
+[2019-12-05 17:39:18,232] INFO Replica loaded for partition demo-20 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,232] INFO Replica loaded for partition demo-20 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,234] INFO Replica loaded for partition demo-1 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,234] INFO Replica loaded for partition demo-1 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,274] INFO [Log partition=demo-1, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:18,275] INFO [Log partition=demo-1, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 5 ms (kafka.log.Log)
+[2019-12-05 17:39:18,276] INFO Created log for partition demo-1 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:18,276] INFO [Partition demo-1 broker=3] No checkpointed highwatermark is found for partition demo-1 (kafka.cluster.Partition)
+[2019-12-05 17:39:18,276] INFO Replica loaded for partition demo-1 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,277] INFO Replica loaded for partition demo-17 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,277] INFO Replica loaded for partition demo-17 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,289] INFO [Log partition=demo-17, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:18,292] INFO [Log partition=demo-17, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 5 ms (kafka.log.Log)
+[2019-12-05 17:39:18,294] INFO Created log for partition demo-17 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:18,295] INFO [Partition demo-17 broker=3] No checkpointed highwatermark is found for partition demo-17 (kafka.cluster.Partition)
+[2019-12-05 17:39:18,295] INFO Replica loaded for partition demo-17 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,297] INFO Replica loaded for partition demo-14 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,301] INFO [Log partition=demo-14, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:18,302] INFO [Log partition=demo-14, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 3 ms (kafka.log.Log)
+[2019-12-05 17:39:18,307] INFO Created log for partition demo-14 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:18,308] INFO [Partition demo-14 broker=3] No checkpointed highwatermark is found for partition demo-14 (kafka.cluster.Partition)
+[2019-12-05 17:39:18,308] INFO Replica loaded for partition demo-14 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,308] INFO Replica loaded for partition demo-14 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,309] INFO Replica loaded for partition demo-49 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,309] INFO Replica loaded for partition demo-49 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,857] INFO [Log partition=demo-49, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:18,858] INFO [Log partition=demo-49, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 430 ms (kafka.log.Log)
+[2019-12-05 17:39:18,859] INFO Created log for partition demo-49 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:18,859] INFO [Partition demo-49 broker=3] No checkpointed highwatermark is found for partition demo-49 (kafka.cluster.Partition)
+[2019-12-05 17:39:18,860] INFO Replica loaded for partition demo-49 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,861] INFO Replica loaded for partition demo-11 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,861] INFO Replica loaded for partition demo-11 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,907] INFO [Log partition=demo-11, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-12-05 17:39:18,908] INFO [Log partition=demo-11, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 41 ms (kafka.log.Log)
+[2019-12-05 17:39:18,909] INFO Created log for partition demo-11 in /home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs with properties {compression.type -> producer, min.insync.replicas -> 1, message.downconversion.enable -> true, segment.jitter.ms -> 0, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, retention.ms -> 604800000, segment.bytes -> 1073741824, flush.messages -> 9223372036854775807, message.format.version -> 2.3-IV1, max.compaction.lag.ms -> 9223372036854775807, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, preallocate -> false, index.interval.bytes -> 4096, min.cleanable.dirty.ratio -> 0.5, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, segment.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760}. (kafka.log.LogManager)
+[2019-12-05 17:39:18,909] INFO [Partition demo-11 broker=3] No checkpointed highwatermark is found for partition demo-11 (kafka.cluster.Partition)
+[2019-12-05 17:39:18,909] INFO Replica loaded for partition demo-11 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-12-05 17:39:18,910] INFO [ReplicaFetcherManager on broker 3] Removed fetcher for partitions Set(demo-2, demo-43, demo-25, demo-47, demo-29, demo-7, demo-11, demo-37, demo-34, demo-19, demo-38, demo-23, demo-20, demo-1, demo-5, demo-46, demo-28, demo-32, demo-10, demo-14, demo-40, demo-22, demo-41, demo-44, demo-26, demo-4, demo-8, demo-49, demo-31, demo-16, demo-13, demo-35, demo-17) (kafka.server.ReplicaFetcherManager)
+[2019-12-05 17:39:20,093] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Starting (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,097] INFO [ReplicaFetcherManager on broker 3] Added fetcher to broker BrokerEndPoint(id=2, host=vinicius:9092) for partitions Map(demo-23 -> (offset=0, leaderEpoch=0), demo-5 -> (offset=0, leaderEpoch=0), demo-44 -> (offset=0, leaderEpoch=0), demo-14 -> (offset=0, leaderEpoch=0), demo-26 -> (offset=0, leaderEpoch=0), demo-8 -> (offset=0, leaderEpoch=0), demo-47 -> (offset=0, leaderEpoch=0), demo-38 -> (offset=0, leaderEpoch=0), demo-17 -> (offset=0, leaderEpoch=0), demo-20 -> (offset=0, leaderEpoch=0), demo-29 -> (offset=0, leaderEpoch=0), demo-11 -> (offset=0, leaderEpoch=0), demo-41 -> (offset=0, leaderEpoch=0), demo-35 -> (offset=0, leaderEpoch=0), demo-32 -> (offset=0, leaderEpoch=0), demo-2 -> (offset=0, leaderEpoch=0)) (kafka.server.ReplicaFetcherManager)
+[2019-12-05 17:39:20,104] INFO [ReplicaFetcherManager on broker 3] Added fetcher to broker BrokerEndPoint(id=1, host=vinicius:9091) for partitions Map(demo-28 -> (offset=0, leaderEpoch=0), demo-43 -> (offset=0, leaderEpoch=0), demo-31 -> (offset=0, leaderEpoch=0), demo-13 -> (offset=0, leaderEpoch=0), demo-4 -> (offset=0, leaderEpoch=0), demo-16 -> (offset=0, leaderEpoch=0), demo-22 -> (offset=0, leaderEpoch=0), demo-46 -> (offset=0, leaderEpoch=0), demo-1 -> (offset=0, leaderEpoch=0), demo-10 -> (offset=0, leaderEpoch=0), demo-37 -> (offset=0, leaderEpoch=0), demo-7 -> (offset=0, leaderEpoch=0), demo-34 -> (offset=0, leaderEpoch=0), demo-19 -> (offset=0, leaderEpoch=0), demo-40 -> (offset=0, leaderEpoch=0), demo-25 -> (offset=0, leaderEpoch=0), demo-49 -> (offset=0, leaderEpoch=0)) (kafka.server.ReplicaFetcherManager)
+[2019-12-05 17:39:20,105] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Starting (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,620] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Truncating partition demo-43 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,755] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Truncating partition demo-2 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,818] INFO [Log partition=demo-2, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,825] INFO [Log partition=demo-43, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,828] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Truncating partition demo-10 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,828] INFO [Log partition=demo-10, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,828] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Truncating partition demo-32 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,828] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Truncating partition demo-25 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,829] INFO [Log partition=demo-32, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,829] INFO [Log partition=demo-25, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,829] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Truncating partition demo-14 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,829] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Truncating partition demo-7 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,829] INFO [Log partition=demo-14, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,832] INFO [Log partition=demo-7, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,832] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Truncating partition demo-47 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,833] INFO [Log partition=demo-47, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,833] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Truncating partition demo-29 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,833] INFO [Log partition=demo-29, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,833] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Truncating partition demo-44 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,833] INFO [Log partition=demo-44, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,833] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Truncating partition demo-11 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,834] INFO [Log partition=demo-11, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,834] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Truncating partition demo-41 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,834] INFO [Log partition=demo-41, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,834] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Truncating partition demo-26 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,834] INFO [Log partition=demo-26, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,834] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Truncating partition demo-8 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,834] INFO [Log partition=demo-8, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,834] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Truncating partition demo-38 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,835] INFO [Log partition=demo-38, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,835] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Truncating partition demo-23 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,835] INFO [Log partition=demo-23, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,835] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Truncating partition demo-20 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,835] INFO [Log partition=demo-20, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,835] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Truncating partition demo-5 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,836] INFO [Log partition=demo-5, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,836] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Truncating partition demo-35 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,836] INFO [Log partition=demo-35, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,836] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Truncating partition demo-17 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,836] INFO [Log partition=demo-17, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,837] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Truncating partition demo-40 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,837] INFO [Log partition=demo-40, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,837] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Truncating partition demo-22 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,837] INFO [Log partition=demo-22, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,837] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Truncating partition demo-4 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,838] INFO [Log partition=demo-4, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,838] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Truncating partition demo-34 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,838] INFO [Log partition=demo-34, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,838] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Truncating partition demo-37 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,838] INFO [Log partition=demo-37, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,838] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Truncating partition demo-19 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,838] INFO [Log partition=demo-19, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,838] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Truncating partition demo-49 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,838] INFO [Log partition=demo-49, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,839] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Truncating partition demo-1 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,839] INFO [Log partition=demo-1, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,839] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Truncating partition demo-31 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,839] INFO [Log partition=demo-31, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,839] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Truncating partition demo-16 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,839] INFO [Log partition=demo-16, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,839] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Truncating partition demo-13 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,839] INFO [Log partition=demo-13, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,839] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Truncating partition demo-46 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,839] INFO [Log partition=demo-46, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:20,840] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Truncating partition demo-28 to local high watermark 0 (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:39:20,840] INFO [Log partition=demo-28, dir=/home/vinicius/Downloads/kafka_2.12-2.3.0_3/logs] Truncating to 0 has no effect as the largest offset in the log is -1 (kafka.log.Log)
+[2019-12-05 17:39:21,922] ERROR [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Error for partition demo-23 at offset 0 (kafka.server.ReplicaFetcherThread)
+org.apache.kafka.common.errors.UnknownTopicOrPartitionException: This server does not host this topic-partition.
+[2019-12-05 17:39:21,954] ERROR [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Error for partition demo-5 at offset 0 (kafka.server.ReplicaFetcherThread)
+org.apache.kafka.common.errors.UnknownTopicOrPartitionException: This server does not host this topic-partition.
+[2019-12-05 17:39:21,954] ERROR [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Error for partition demo-44 at offset 0 (kafka.server.ReplicaFetcherThread)
+org.apache.kafka.common.errors.UnknownTopicOrPartitionException: This server does not host this topic-partition.
+[2019-12-05 17:39:21,955] ERROR [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Error for partition demo-14 at offset 0 (kafka.server.ReplicaFetcherThread)
+org.apache.kafka.common.errors.UnknownTopicOrPartitionException: This server does not host this topic-partition.
+[2019-12-05 17:39:21,955] ERROR [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Error for partition demo-26 at offset 0 (kafka.server.ReplicaFetcherThread)
+org.apache.kafka.common.errors.UnknownTopicOrPartitionException: This server does not host this topic-partition.
+[2019-12-05 17:39:21,955] ERROR [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Error for partition demo-8 at offset 0 (kafka.server.ReplicaFetcherThread)
+org.apache.kafka.common.errors.UnknownTopicOrPartitionException: This server does not host this topic-partition.
+[2019-12-05 17:39:21,955] ERROR [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Error for partition demo-47 at offset 0 (kafka.server.ReplicaFetcherThread)
+org.apache.kafka.common.errors.UnknownTopicOrPartitionException: This server does not host this topic-partition.
+[2019-12-05 17:39:21,955] ERROR [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Error for partition demo-38 at offset 0 (kafka.server.ReplicaFetcherThread)
+org.apache.kafka.common.errors.UnknownTopicOrPartitionException: This server does not host this topic-partition.
+[2019-12-05 17:39:21,955] ERROR [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Error for partition demo-17 at offset 0 (kafka.server.ReplicaFetcherThread)
+org.apache.kafka.common.errors.UnknownTopicOrPartitionException: This server does not host this topic-partition.
+[2019-12-05 17:39:21,955] ERROR [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Error for partition demo-20 at offset 0 (kafka.server.ReplicaFetcherThread)
+org.apache.kafka.common.errors.UnknownTopicOrPartitionException: This server does not host this topic-partition.
+[2019-12-05 17:39:21,956] ERROR [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Error for partition demo-29 at offset 0 (kafka.server.ReplicaFetcherThread)
+org.apache.kafka.common.errors.UnknownTopicOrPartitionException: This server does not host this topic-partition.
+[2019-12-05 17:39:21,956] ERROR [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Error for partition demo-11 at offset 0 (kafka.server.ReplicaFetcherThread)
+org.apache.kafka.common.errors.UnknownTopicOrPartitionException: This server does not host this topic-partition.
+[2019-12-05 17:39:21,956] ERROR [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Error for partition demo-41 at offset 0 (kafka.server.ReplicaFetcherThread)
+org.apache.kafka.common.errors.UnknownTopicOrPartitionException: This server does not host this topic-partition.
+[2019-12-05 17:39:21,956] ERROR [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Error for partition demo-35 at offset 0 (kafka.server.ReplicaFetcherThread)
+org.apache.kafka.common.errors.UnknownTopicOrPartitionException: This server does not host this topic-partition.
+[2019-12-05 17:39:21,956] ERROR [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Error for partition demo-32 at offset 0 (kafka.server.ReplicaFetcherThread)
+org.apache.kafka.common.errors.UnknownTopicOrPartitionException: This server does not host this topic-partition.
+[2019-12-05 17:39:21,956] ERROR [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Error for partition demo-2 at offset 0 (kafka.server.ReplicaFetcherThread)
+org.apache.kafka.common.errors.UnknownTopicOrPartitionException: This server does not host this topic-partition.
+[2019-12-05 17:42:24,567] INFO Terminating process due to signal SIGHUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2019-12-05 17:42:24,566] INFO Terminating process due to signal SIGHUP (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2019-12-05 17:42:24,717] INFO [KafkaServer id=3] shutting down (kafka.server.KafkaServer)
+[2019-12-05 17:42:24,724] INFO [KafkaServer id=3] Starting controlled shutdown (kafka.server.KafkaServer)
+[2019-12-05 17:42:25,563] INFO [ReplicaFetcherManager on broker 3] Removed fetcher for partitions Set(demo-28, demo-4, demo-16, demo-22, demo-46, demo-10, demo-34, demo-40) (kafka.server.ReplicaFetcherManager)
+[2019-12-05 17:42:25,563] INFO [Partition demo-46 broker=3] demo-46 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:25,635] INFO [Partition demo-40 broker=3] demo-40 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:25,759] INFO [Partition demo-34 broker=3] demo-34 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:25,847] INFO [Partition demo-28 broker=3] demo-28 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:25,994] INFO [Partition demo-22 broker=3] demo-22 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:26,126] INFO [Partition demo-10 broker=3] demo-10 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:26,207] INFO [Partition demo-16 broker=3] demo-16 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:26,337] INFO [Partition demo-4 broker=3] demo-4 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:26,502] INFO [ReplicaFetcherManager on broker 3] Removed fetcher for partitions Set(demo-43, demo-19, demo-49, demo-25, demo-1, demo-31, demo-7, demo-13, demo-37) (kafka.server.ReplicaFetcherManager)
+[2019-12-05 17:42:26,506] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Shutting down (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:42:26,508] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Stopped (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:42:26,509] INFO [ReplicaFetcher replicaId=3, leaderId=1, fetcherId=0] Shutdown completed (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:42:26,527] INFO [ReplicaFetcherManager on broker 3] Removed fetcher for partitions Set(demo-42, demo-39, demo-27, demo-48, demo-33, demo-3, demo-0, demo-9, demo-12, demo-21, demo-24, demo-30, demo-36, demo-6, demo-18, demo-45, demo-15) (kafka.server.ReplicaFetcherManager)
+[2019-12-05 17:42:26,528] INFO [Partition demo-27 broker=3] demo-27 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:26,660] INFO [Partition demo-24 broker=3] demo-24 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:26,956] INFO [Partition demo-21 broker=3] demo-21 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:27,060] INFO [Partition demo-18 broker=3] demo-18 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:27,246] INFO [Partition demo-15 broker=3] demo-15 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:27,363] INFO [Partition demo-12 broker=3] demo-12 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:27,491] INFO [Partition demo-9 broker=3] demo-9 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:27,616] WARN [Controller id=3, targetBrokerId=1] Connection to node 1 (vinicius/127.0.1.1:9091) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:27,626] INFO [Partition demo-6 broker=3] demo-6 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:27,705] INFO [Partition demo-3 broker=3] demo-3 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:27,718] WARN [Controller id=3, targetBrokerId=1] Connection to node 1 (vinicius/127.0.1.1:9091) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:27,818] INFO [Partition demo-0 broker=3] demo-0 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:27,819] WARN [Controller id=3, targetBrokerId=1] Connection to node 1 (vinicius/127.0.1.1:9091) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:27,847] INFO [KafkaServer id=3] Remaining partitions to move: [RemainingPartition(topicName='demo', partitionIndex=23), RemainingPartition(topicName='demo', partitionIndex=42), RemainingPartition(topicName='demo', partitionIndex=28), RemainingPartition(topicName='demo', partitionIndex=39), RemainingPartition(topicName='demo', partitionIndex=5), RemainingPartition(topicName='demo', partitionIndex=44), RemainingPartition(topicName='demo', partitionIndex=14), RemainingPartition(topicName='demo', partitionIndex=26), RemainingPartition(topicName='demo', partitionIndex=27), RemainingPartition(topicName='demo', partitionIndex=8), RemainingPartition(topicName='demo', partitionIndex=43), RemainingPartition(topicName='demo', partitionIndex=48), RemainingPartition(topicName='demo', partitionIndex=33), RemainingPartition(topicName='demo', partitionIndex=31), RemainingPartition(topicName='demo', partitionIndex=3), RemainingPartition(topicName='demo', partitionIndex=13), RemainingPartition(topicName='demo', partitionIndex=4), RemainingPartition(topicName='demo', partitionIndex=47), RemainingPartition(topicName='demo', partitionIndex=16), RemainingPartition(topicName='demo', partitionIndex=38), RemainingPartition(topicName='demo', partitionIndex=0), RemainingPartition(topicName='demo', partitionIndex=9), RemainingPartition(topicName='demo', partitionIndex=22), RemainingPartition(topicName='demo', partitionIndex=12), RemainingPartition(topicName='demo', partitionIndex=21), RemainingPartition(topicName='demo', partitionIndex=46), RemainingPartition(topicName='demo', partitionIndex=1), RemainingPartition(topicName='demo', partitionIndex=17), RemainingPartition(topicName='demo', partitionIndex=24), RemainingPartition(topicName='demo', partitionIndex=10), RemainingPartition(topicName='demo', partitionIndex=37), RemainingPartition(topicName='demo', partitionIndex=7), RemainingPartition(topicName='demo', partitionIndex=30), RemainingPartition(topicName='demo', partitionIndex=34), RemainingPartition(topicName='demo', partitionIndex=20), RemainingPartition(topicName='demo', partitionIndex=29), RemainingPartition(topicName='demo', partitionIndex=36), RemainingPartition(topicName='demo', partitionIndex=6), RemainingPartition(topicName='demo', partitionIndex=11), RemainingPartition(topicName='demo', partitionIndex=41), RemainingPartition(topicName='demo', partitionIndex=19), RemainingPartition(topicName='demo', partitionIndex=35), RemainingPartition(topicName='demo', partitionIndex=32), RemainingPartition(topicName='demo', partitionIndex=40), RemainingPartition(topicName='demo', partitionIndex=25), RemainingPartition(topicName='demo', partitionIndex=18), RemainingPartition(topicName='demo', partitionIndex=49), RemainingPartition(topicName='demo', partitionIndex=45), RemainingPartition(topicName='demo', partitionIndex=2), RemainingPartition(topicName='demo', partitionIndex=15)] (kafka.server.KafkaServer)
+[2019-12-05 17:42:27,853] INFO [KafkaServer id=3] Error from controller: NONE (kafka.server.KafkaServer)
+[2019-12-05 17:42:27,861] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Error sending fetch request (sessionId=901695849, epoch=366) to node 2: java.io.IOException: Connection to 2 was disconnected before the response was read. (org.apache.kafka.clients.FetchSessionHandler)
+[2019-12-05 17:42:27,869] WARN [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Error in response for fetch request (type=FetchRequest, replicaId=3, maxWait=500, minBytes=1, maxBytes=10485760, fetchData={}, isolationLevel=READ_UNCOMMITTED, toForget=, metadata=(sessionId=901695849, epoch=366), rackId=) (kafka.server.ReplicaFetcherThread)
+java.io.IOException: Connection to 2 was disconnected before the response was read
+	at org.apache.kafka.clients.NetworkClientUtils.sendAndReceive(NetworkClientUtils.java:100)
+	at kafka.server.ReplicaFetcherBlockingSend.sendRequest(ReplicaFetcherBlockingSend.scala:107)
+	at kafka.server.ReplicaFetcherThread.fetchFromLeader(ReplicaFetcherThread.scala:197)
+	at kafka.server.AbstractFetcherThread.processFetchRequest(AbstractFetcherThread.scala:286)
+	at kafka.server.AbstractFetcherThread.$anonfun$maybeFetch$3(AbstractFetcherThread.scala:133)
+	at kafka.server.AbstractFetcherThread.$anonfun$maybeFetch$3$adapted(AbstractFetcherThread.scala:132)
+	at scala.Option.foreach(Option.scala:274)
+	at kafka.server.AbstractFetcherThread.maybeFetch(AbstractFetcherThread.scala:132)
+	at kafka.server.AbstractFetcherThread.doWork(AbstractFetcherThread.scala:114)
+	at kafka.utils.ShutdownableThread.run(ShutdownableThread.scala:89)
+[2019-12-05 17:42:27,884] INFO [Partition demo-48 broker=3] demo-48 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:27,921] WARN [Controller id=3, targetBrokerId=1] Connection to node 1 (vinicius/127.0.1.1:9091) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:27,924] INFO [Partition demo-45 broker=3] demo-45 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:27,968] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:28,002] INFO [Partition demo-42 broker=3] demo-42 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:28,022] WARN [Controller id=3, targetBrokerId=1] Connection to node 1 (vinicius/127.0.1.1:9091) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:28,069] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:28,093] INFO [Partition demo-39 broker=3] demo-39 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:28,123] WARN [Controller id=3, targetBrokerId=1] Connection to node 1 (vinicius/127.0.1.1:9091) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:28,160] INFO [Partition demo-36 broker=3] demo-36 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:28,171] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:28,224] WARN [Controller id=3, targetBrokerId=1] Connection to node 1 (vinicius/127.0.1.1:9091) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:28,276] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:28,281] INFO [Partition demo-33 broker=3] demo-33 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:28,340] WARN [Controller id=3, targetBrokerId=1] Connection to node 1 (vinicius/127.0.1.1:9091) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:28,355] INFO [Partition demo-30 broker=3] demo-30 starts at Leader Epoch 1 from offset 0. Previous Leader Epoch was: 0 (kafka.cluster.Partition)
+[2019-12-05 17:42:28,377] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:28,394] INFO [ReplicaFetcherManager on broker 3] Removed fetcher for partitions Set(demo-2, demo-32, demo-14, demo-47, demo-29, demo-11, demo-41, demo-44, demo-26, demo-8, demo-38, demo-23, demo-20, demo-5, demo-35, demo-17) (kafka.server.ReplicaFetcherManager)
+[2019-12-05 17:42:28,396] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Shutting down (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:42:28,396] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Stopped (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:42:28,397] INFO [ReplicaFetcher replicaId=3, leaderId=2, fetcherId=0] Shutdown completed (kafka.server.ReplicaFetcherThread)
+[2019-12-05 17:42:28,408] INFO [ReplicaFetcherManager on broker 3] Removed fetcher for partitions Set(demo-23, demo-5, demo-44, demo-14, demo-26, demo-8, demo-43, demo-31, demo-13, demo-47, demo-38, demo-1, demo-17, demo-37, demo-7, demo-20, demo-29, demo-11, demo-41, demo-19, demo-35, demo-32, demo-25, demo-49, demo-2) (kafka.server.ReplicaFetcherManager)
+[2019-12-05 17:42:28,409] INFO [Partition demo-8 broker=3] demo-8 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:28,441] WARN [Controller id=3, targetBrokerId=1] Connection to node 1 (vinicius/127.0.1.1:9091) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:28,478] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:28,486] INFO [Partition demo-5 broker=3] demo-5 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:28,542] WARN [Controller id=3, targetBrokerId=1] Connection to node 1 (vinicius/127.0.1.1:9091) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:28,570] INFO [Partition demo-43 broker=3] demo-43 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:28,579] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:28,643] WARN [Controller id=3, targetBrokerId=1] Connection to node 1 (vinicius/127.0.1.1:9091) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:28,680] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:28,716] INFO [Partition demo-2 broker=3] demo-2 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:28,781] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:28,793] INFO [Partition demo-37 broker=3] demo-37 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:28,828] INFO [Partition demo-31 broker=3] demo-31 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:28,862] INFO [Partition demo-47 broker=3] demo-47 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:28,883] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:28,942] INFO [Partition demo-25 broker=3] demo-25 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:28,984] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:28,996] INFO [Partition demo-44 broker=3] demo-44 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,063] INFO [Partition demo-41 broker=3] demo-41 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,085] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:29,108] INFO [Partition demo-38 broker=3] demo-38 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,141] INFO [Partition demo-29 broker=3] demo-29 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,175] INFO [Partition demo-19 broker=3] demo-19 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,186] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:29,265] INFO [Partition demo-7 broker=3] demo-7 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,287] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:29,310] INFO [Partition demo-35 broker=3] demo-35 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,388] INFO [Partition demo-26 broker=3] demo-26 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,388] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:29,444] INFO [Partition demo-23 broker=3] demo-23 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,478] INFO [Partition demo-32 broker=3] demo-32 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,490] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:29,511] INFO [Partition demo-13 broker=3] demo-13 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,545] INFO [Partition demo-1 broker=3] demo-1 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,569] INFO [Partition demo-20 broker=3] demo-20 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,591] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:29,603] INFO [Partition demo-17 broker=3] demo-17 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,637] INFO [Partition demo-14 broker=3] demo-14 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,671] INFO [Partition demo-11 broker=3] demo-11 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,692] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:29,704] INFO [Partition demo-49 broker=3] demo-49 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,747] INFO [ReplicaFetcherManager on broker 3] Removed fetcher for partitions Set(demo-42, demo-28, demo-39, demo-27, demo-48, demo-33, demo-3, demo-4, demo-16, demo-0, demo-9, demo-22, demo-12, demo-21, demo-46, demo-24, demo-10, demo-30, demo-34, demo-36, demo-6, demo-40, demo-18, demo-45, demo-15) (kafka.server.ReplicaFetcherManager)
+[2019-12-05 17:42:29,747] INFO [Partition demo-27 broker=3] demo-27 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,793] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:29,795] INFO [Partition demo-46 broker=3] demo-46 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,829] INFO [Partition demo-24 broker=3] demo-24 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,873] INFO [Partition demo-21 broker=3] demo-21 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,894] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:29,907] INFO [Partition demo-40 broker=3] demo-40 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,957] INFO [Partition demo-18 broker=3] demo-18 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:29,995] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:30,013] INFO [Partition demo-34 broker=3] demo-34 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:30,076] INFO [Partition demo-15 broker=3] demo-15 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:30,097] WARN [Controller id=3, targetBrokerId=2] Connection to node 2 (vinicius/127.0.1.1:9092) could not be established. Broker may not be available. (org.apache.kafka.clients.NetworkClient)
+[2019-12-05 17:42:30,143] INFO [Partition demo-12 broker=3] demo-12 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:30,222] INFO [Partition demo-28 broker=3] demo-28 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:30,278] INFO [Partition demo-9 broker=3] demo-9 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:30,312] INFO [Partition demo-6 broker=3] demo-6 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:30,356] INFO [Partition demo-22 broker=3] demo-22 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:30,414] INFO [Partition demo-3 broker=3] demo-3 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:30,470] INFO [Partition demo-0 broker=3] demo-0 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:30,592] INFO [Partition demo-10 broker=3] demo-10 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:30,626] INFO [Partition demo-48 broker=3] demo-48 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:30,660] INFO [Partition demo-45 broker=3] demo-45 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:30,694] INFO [Partition demo-16 broker=3] demo-16 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:30,727] INFO [Partition demo-42 broker=3] demo-42 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:30,761] INFO [Partition demo-4 broker=3] demo-4 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:30,806] INFO [Partition demo-39 broker=3] demo-39 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:30,840] INFO [Partition demo-36 broker=3] demo-36 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:30,874] INFO [Partition demo-33 broker=3] demo-33 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:30,907] INFO [Partition demo-30 broker=3] demo-30 starts at Leader Epoch 2 from offset 0. Previous Leader Epoch was: 1 (kafka.cluster.Partition)
+[2019-12-05 17:42:32,854] WARN [KafkaServer id=3] Retrying controlled shutdown after the previous attempt failed... (kafka.server.KafkaServer)
+[2019-12-05 17:42:32,883] INFO [KafkaServer id=3] Remaining partitions to move: [RemainingPartition(topicName='demo', partitionIndex=23), RemainingPartition(topicName='demo', partitionIndex=42), RemainingPartition(topicName='demo', partitionIndex=28), RemainingPartition(topicName='demo', partitionIndex=39), RemainingPartition(topicName='demo', partitionIndex=5), RemainingPartition(topicName='demo', partitionIndex=44), RemainingPartition(topicName='demo', partitionIndex=14), RemainingPartition(topicName='demo', partitionIndex=26), RemainingPartition(topicName='demo', partitionIndex=27), RemainingPartition(topicName='demo', partitionIndex=8), RemainingPartition(topicName='demo', partitionIndex=43), RemainingPartition(topicName='demo', partitionIndex=48), RemainingPartition(topicName='demo', partitionIndex=33), RemainingPartition(topicName='demo', partitionIndex=31), RemainingPartition(topicName='demo', partitionIndex=3), RemainingPartition(topicName='demo', partitionIndex=13), RemainingPartition(topicName='demo', partitionIndex=4), RemainingPartition(topicName='demo', partitionIndex=47), RemainingPartition(topicName='demo', partitionIndex=16), RemainingPartition(topicName='demo', partitionIndex=38), RemainingPartition(topicName='demo', partitionIndex=0), RemainingPartition(topicName='demo', partitionIndex=9), RemainingPartition(topicName='demo', partitionIndex=22), RemainingPartition(topicName='demo', partitionIndex=12), RemainingPartition(topicName='demo', partitionIndex=21), RemainingPartition(topicName='demo', partitionIndex=46), RemainingPartition(topicName='demo', partitionIndex=1), RemainingPartition(topicName='demo', partitionIndex=17), RemainingPartition(topicName='demo', partitionIndex=24), RemainingPartition(topicName='demo', partitionIndex=10), RemainingPartition(topicName='demo', partitionIndex=37), RemainingPartition(topicName='demo', partitionIndex=7), RemainingPartition(topicName='demo', partitionIndex=30), RemainingPartition(topicName='demo', partitionIndex=34), RemainingPartition(topicName='demo', partitionIndex=20), RemainingPartition(topicName='demo', partitionIndex=29), RemainingPartition(topicName='demo', partitionIndex=36), RemainingPartition(topicName='demo', partitionIndex=6), RemainingPartition(topicName='demo', partitionIndex=11), RemainingPartition(topicName='demo', partitionIndex=41), RemainingPartition(topicName='demo', partitionIndex=19), RemainingPartition(topicName='demo', partitionIndex=35), RemainingPartition(topicName='demo', partitionIndex=32), RemainingPartition(topicName='demo', partitionIndex=40), RemainingPartition(topicName='demo', partitionIndex=25), RemainingPartition(topicName='demo', partitionIndex=18), RemainingPartition(topicName='demo', partitionIndex=49), RemainingPartition(topicName='demo', partitionIndex=45), RemainingPartition(topicName='demo', partitionIndex=2), RemainingPartition(topicName='demo', partitionIndex=15)] (kafka.server.KafkaServer)
+[2019-12-05 17:42:32,883] INFO [KafkaServer id=3] Error from controller: NONE (kafka.server.KafkaServer)
+[2019-12-05 17:42:37,883] WARN [KafkaServer id=3] Retrying controlled shutdown after the previous attempt failed... (kafka.server.KafkaServer)
+[2019-12-05 17:42:38,035] INFO [KafkaServer id=3] Remaining partitions to move: [RemainingPartition(topicName='demo', partitionIndex=23), RemainingPartition(topicName='demo', partitionIndex=42), RemainingPartition(topicName='demo', partitionIndex=28), RemainingPartition(topicName='demo', partitionIndex=39), RemainingPartition(topicName='demo', partitionIndex=5), RemainingPartition(topicName='demo', partitionIndex=44), RemainingPartition(topicName='demo', partitionIndex=14), RemainingPartition(topicName='demo', partitionIndex=26), RemainingPartition(topicName='demo', partitionIndex=27), RemainingPartition(topicName='demo', partitionIndex=8), RemainingPartition(topicName='demo', partitionIndex=43), RemainingPartition(topicName='demo', partitionIndex=48), RemainingPartition(topicName='demo', partitionIndex=33), RemainingPartition(topicName='demo', partitionIndex=31), RemainingPartition(topicName='demo', partitionIndex=3), RemainingPartition(topicName='demo', partitionIndex=13), RemainingPartition(topicName='demo', partitionIndex=4), RemainingPartition(topicName='demo', partitionIndex=47), RemainingPartition(topicName='demo', partitionIndex=16), RemainingPartition(topicName='demo', partitionIndex=38), RemainingPartition(topicName='demo', partitionIndex=0), RemainingPartition(topicName='demo', partitionIndex=9), RemainingPartition(topicName='demo', partitionIndex=22), RemainingPartition(topicName='demo', partitionIndex=12), RemainingPartition(topicName='demo', partitionIndex=21), RemainingPartition(topicName='demo', partitionIndex=46), RemainingPartition(topicName='demo', partitionIndex=1), RemainingPartition(topicName='demo', partitionIndex=17), RemainingPartition(topicName='demo', partitionIndex=24), RemainingPartition(topicName='demo', partitionIndex=10), RemainingPartition(topicName='demo', partitionIndex=37), RemainingPartition(topicName='demo', partitionIndex=7), RemainingPartition(topicName='demo', partitionIndex=30), RemainingPartition(topicName='demo', partitionIndex=34), RemainingPartition(topicName='demo', partitionIndex=20), RemainingPartition(topicName='demo', partitionIndex=29), RemainingPartition(topicName='demo', partitionIndex=36), RemainingPartition(topicName='demo', partitionIndex=6), RemainingPartition(topicName='demo', partitionIndex=11), RemainingPartition(topicName='demo', partitionIndex=41), RemainingPartition(topicName='demo', partitionIndex=19), RemainingPartition(topicName='demo', partitionIndex=35), RemainingPartition(topicName='demo', partitionIndex=32), RemainingPartition(topicName='demo', partitionIndex=40), RemainingPartition(topicName='demo', partitionIndex=25), RemainingPartition(topicName='demo', partitionIndex=18), RemainingPartition(topicName='demo', partitionIndex=49), RemainingPartition(topicName='demo', partitionIndex=45), RemainingPartition(topicName='demo', partitionIndex=2), RemainingPartition(topicName='demo', partitionIndex=15)] (kafka.server.KafkaServer)
+[2019-12-05 17:42:38,036] INFO [KafkaServer id=3] Error from controller: NONE (kafka.server.KafkaServer)
+[2019-12-05 17:42:43,036] WARN [KafkaServer id=3] Retrying controlled shutdown after the previous attempt failed... (kafka.server.KafkaServer)
+[2019-12-05 17:42:43,039] WARN [KafkaServer id=3] Proceeding to do an unclean shutdown as all the controlled shutdown attempts failed (kafka.server.KafkaServer)
+[2019-12-05 17:42:43,058] INFO [/config/changes-event-process-thread]: Shutting down (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-12-05 17:42:43,058] INFO [/config/changes-event-process-thread]: Shutdown completed (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-12-05 17:42:43,058] INFO [/config/changes-event-process-thread]: Stopped (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-12-05 17:42:43,059] INFO [SocketServer brokerId=3] Stopping socket server request processors (kafka.network.SocketServer)
+[2019-12-05 17:42:43,072] INFO [SocketServer brokerId=3] Stopped socket server request processors (kafka.network.SocketServer)
+[2019-12-05 17:42:43,073] INFO [data-plane Kafka Request Handler on Broker 3], shutting down (kafka.server.KafkaRequestHandlerPool)
+[2019-12-05 17:42:43,076] INFO [data-plane Kafka Request Handler on Broker 3], shut down completely (kafka.server.KafkaRequestHandlerPool)
+[2019-12-05 17:42:43,080] INFO [KafkaApi-3] Shutdown complete. (kafka.server.KafkaApis)
+[2019-12-05 17:42:43,081] INFO [ExpirationReaper-3-topic]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,259] INFO [ExpirationReaper-3-topic]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,259] INFO [ExpirationReaper-3-topic]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,263] INFO [TransactionCoordinator id=3] Shutting down. (kafka.coordinator.transaction.TransactionCoordinator)
+[2019-12-05 17:42:43,263] INFO [ProducerId Manager 3]: Shutdown complete: last producerId assigned 2000 (kafka.coordinator.transaction.ProducerIdManager)
+[2019-12-05 17:42:43,264] INFO [Transaction State Manager 3]: Shutdown complete (kafka.coordinator.transaction.TransactionStateManager)
+[2019-12-05 17:42:43,264] INFO [Transaction Marker Channel Manager 3]: Shutting down (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2019-12-05 17:42:43,264] INFO [Transaction Marker Channel Manager 3]: Stopped (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2019-12-05 17:42:43,264] INFO [Transaction Marker Channel Manager 3]: Shutdown completed (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2019-12-05 17:42:43,265] INFO [TransactionCoordinator id=3] Shutdown complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2019-12-05 17:42:43,265] INFO [GroupCoordinator 3]: Shutting down. (kafka.coordinator.group.GroupCoordinator)
+[2019-12-05 17:42:43,266] INFO [ExpirationReaper-3-Heartbeat]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,453] INFO [ExpirationReaper-3-Heartbeat]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,453] INFO [ExpirationReaper-3-Heartbeat]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,453] INFO [ExpirationReaper-3-Rebalance]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,455] INFO [ExpirationReaper-3-Rebalance]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,455] INFO [ExpirationReaper-3-Rebalance]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,456] INFO [GroupCoordinator 3]: Shutdown complete. (kafka.coordinator.group.GroupCoordinator)
+[2019-12-05 17:42:43,457] INFO [ReplicaManager broker=3] Shutting down (kafka.server.ReplicaManager)
+[2019-12-05 17:42:43,457] INFO [LogDirFailureHandler]: Shutting down (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-12-05 17:42:43,457] INFO [LogDirFailureHandler]: Shutdown completed (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-12-05 17:42:43,457] INFO [LogDirFailureHandler]: Stopped (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-12-05 17:42:43,458] INFO [ReplicaFetcherManager on broker 3] shutting down (kafka.server.ReplicaFetcherManager)
+[2019-12-05 17:42:43,460] INFO [ReplicaFetcherManager on broker 3] shutdown completed (kafka.server.ReplicaFetcherManager)
+[2019-12-05 17:42:43,461] INFO [ReplicaAlterLogDirsManager on broker 3] shutting down (kafka.server.ReplicaAlterLogDirsManager)
+[2019-12-05 17:42:43,461] INFO [ReplicaAlterLogDirsManager on broker 3] shutdown completed (kafka.server.ReplicaAlterLogDirsManager)
+[2019-12-05 17:42:43,461] INFO [ExpirationReaper-3-Fetch]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,529] INFO [ExpirationReaper-3-Fetch]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,529] INFO [ExpirationReaper-3-Fetch]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,530] INFO [ExpirationReaper-3-Produce]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,665] INFO [ExpirationReaper-3-Produce]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,665] INFO [ExpirationReaper-3-Produce]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,665] INFO [ExpirationReaper-3-DeleteRecords]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,853] INFO [ExpirationReaper-3-DeleteRecords]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,853] INFO [ExpirationReaper-3-DeleteRecords]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,853] INFO [ExpirationReaper-3-ElectPreferredLeader]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,875] INFO [ExpirationReaper-3-ElectPreferredLeader]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,875] INFO [ExpirationReaper-3-ElectPreferredLeader]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-12-05 17:42:43,916] INFO [ReplicaManager broker=3] Shut down completely (kafka.server.ReplicaManager)
+[2019-12-05 17:42:43,916] INFO Shutting down. (kafka.log.LogManager)
+[2019-12-05 17:42:44,078] INFO Shutdown complete. (kafka.log.LogManager)
+[2019-12-05 17:42:44,083] INFO [ZooKeeperClient Kafka server] Closing. (kafka.zookeeper.ZooKeeperClient)
+[2019-12-05 17:42:44,099] INFO Session: 0x16ed33f883a0006 closed (org.apache.zookeeper.ZooKeeper)
+[2019-12-05 17:42:44,099] INFO EventThread shut down for session: 0x16ed33f883a0006 (org.apache.zookeeper.ClientCnxn)
+[2019-12-05 17:42:44,100] INFO [ZooKeeperClient Kafka server] Closed. (kafka.zookeeper.ZooKeeperClient)
+[2019-12-05 17:42:44,101] INFO [ThrottledChannelReaper-Fetch]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-12-05 17:42:44,774] INFO [ThrottledChannelReaper-Fetch]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-12-05 17:42:44,774] INFO [ThrottledChannelReaper-Fetch]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-12-05 17:42:44,775] INFO [ThrottledChannelReaper-Produce]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-12-05 17:42:45,772] INFO [ThrottledChannelReaper-Produce]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-12-05 17:42:45,772] INFO [ThrottledChannelReaper-Produce]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-12-05 17:42:45,773] INFO [ThrottledChannelReaper-Request]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-12-05 17:42:46,772] INFO [ThrottledChannelReaper-Request]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-12-05 17:42:46,772] INFO [ThrottledChannelReaper-Request]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-12-05 17:42:46,774] INFO [SocketServer brokerId=3] Shutting down socket server (kafka.network.SocketServer)
+[2019-12-05 17:42:46,802] INFO [SocketServer brokerId=3] Shutdown completed (kafka.network.SocketServer)
+[2019-12-05 17:42:46,807] INFO [KafkaServer id=3] shut down completed (kafka.server.KafkaServer)
